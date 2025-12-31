@@ -1,0 +1,2475 @@
+{
+ "interproscan-version": "5.76-107.0",
+"results": [ {
+  "sequence" : "MAKASNTAAQRVRKKVKKNVAEGVVHVHASFNNTIITITDRQGNALAWATSGGAGFKGSRKSTPFAAQVAAESAGRVAMEYGVKNLEVRIKGPGPGRESAVRALHGLGIKITAISDVTPIPHNGCRPPKKRRI",
+  "md5" : "e3252704b7fb0e28c880e397c31f71f2",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "NF003698",
+      "name" : "PRK05309.1",
+      "description" : "30S ribosomal protein S11",
+      "type" : "FAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "NCBIFAM",
+        "version" : "17.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 13,
+      "end" : 132,
+      "representative" : false,
+      "hmmStart" : 1,
+      "hmmEnd" : 120,
+      "hmmLength" : 120,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 8.0E-57,
+      "score" : 202.2,
+      "envelopeStart" : 13,
+      "envelopeEnd" : 132,
+      "postProcessed" : false,
+      "location-fragments" : [ {
+        "start" : 13,
+        "end" : 132,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 6.7E-57,
+    "score" : 202.4,
+    "model-ac" : "NF003698"
+  }, {
+    "signature" : {
+      "accession" : "SSF53137",
+      "name" : "Translational machinery components",
+      "description" : null,
+      "type" : "HOMOLOGOUS_SUPERFAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 18,
+      "end" : 133,
+      "representative" : false,
+      "hmmLength" : 117,
+      "location-fragments" : [ {
+        "start" : 18,
+        "end" : 133,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.1E-48,
+    "model-ac" : "0054592"
+  }, {
+    "signature" : {
+      "accession" : "PIRSF002131",
+      "name" : "RPS11p_RPS11a_RPS14e_RPS11o",
+      "description" : null,
+      "type" : "FAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "PIRSF",
+        "version" : "3.10"
+      },
+      "entry" : {
+        "accession" : "IPR001971",
+        "name" : "Ribosomal_uS11",
+        "description" : "Small ribosomal subunit protein uS11",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "ribosome",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0005840"
+        }, {
+          "name" : "structural constituent of ribosome",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003735"
+        }, {
+          "name" : "translation",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006412"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "SRP-dependent cotranslational protein targeting to membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1799339"
+        }, {
+          "name" : "Viral mRNA Translation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-192823"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-975957"
+        }, {
+          "name" : "Translation initiation complex formation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-72649"
+        }, {
+          "name" : "SRP-dependent cotranslational protein targeting to membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-1799339"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-975957"
+        }, {
+          "name" : "SRP-dependent cotranslational protein targeting to membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1799339"
+        }, {
+          "name" : "GTP hydrolysis and joining of the 60S ribosomal subunit",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-72706"
+        }, {
+          "name" : "Ribosomal scanning and start codon recognition",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-72702"
+        }, {
+          "name" : "Major pathway of rRNA processing in the nucleolus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6791226"
+        }, {
+          "name" : "Formation of a pool of free 40S subunits",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-72689"
+        }, {
+          "name" : "Selenocysteine synthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2408557"
+        }, {
+          "name" : "Translation initiation complex formation",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-72649"
+        }, {
+          "name" : "Ribosomal scanning and start codon recognition",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-72702"
+        }, {
+          "name" : "Formation of a pool of free 40S subunits",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-72689"
+        }, {
+          "name" : "Translation initiation complex formation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-72649"
+        }, {
+          "name" : "GTP hydrolysis and joining of the 60S ribosomal subunit",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-72706"
+        }, {
+          "name" : "Major pathway of rRNA processing in the nucleolus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-6791226"
+        }, {
+          "name" : "SRP-dependent cotranslational protein targeting to membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-1799339"
+        }, {
+          "name" : "L13a-mediated translational silencing of Ceruloplasmin expression",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-156827"
+        }, {
+          "name" : "Major pathway of rRNA processing in the nucleolus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-6791226"
+        }, {
+          "name" : "Regulation of expression of SLITs and ROBOs",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9010553"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-975956"
+        }, {
+          "name" : "SARS-CoV-2 modulates host translation machinery",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9754678"
+        }, {
+          "name" : "GTP hydrolysis and joining of the 60S ribosomal subunit",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-72706"
+        }, {
+          "name" : "Formation of the ternary complex, and subsequently, the 43S complex",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-72695"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-975957"
+        }, {
+          "name" : "Ribosomal scanning and start codon recognition",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-72702"
+        }, {
+          "name" : "Ribosomal scanning and start codon recognition",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-72702"
+        }, {
+          "name" : "Formation of the ternary complex, and subsequently, the 43S complex",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-72695"
+        }, {
+          "name" : "Response of EIF2AK4 (GCN2) to amino acid deficiency",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9633012"
+        }, {
+          "name" : "GTP hydrolysis and joining of the 60S ribosomal subunit",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-72706"
+        }, {
+          "name" : "Mitochondrial translation elongation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5389840"
+        }, {
+          "name" : "GTP hydrolysis and joining of the 60S ribosomal subunit",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-72706"
+        }, {
+          "name" : "L13a-mediated translational silencing of Ceruloplasmin expression",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-156827"
+        }, {
+          "name" : "L13a-mediated translational silencing of Ceruloplasmin expression",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-156827"
+        }, {
+          "name" : "Ribosomal scanning and start codon recognition",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-72702"
+        }, {
+          "name" : "SRP-dependent cotranslational protein targeting to membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-1799339"
+        }, {
+          "name" : "Formation of a pool of free 40S subunits",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-72689"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-975956"
+        }, {
+          "name" : "Ribosomal scanning and start codon recognition",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-72702"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-975957"
+        }, {
+          "name" : "Formation of a pool of free 40S subunits",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-72689"
+        }, {
+          "name" : "Formation of the ternary complex, and subsequently, the 43S complex",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-72695"
+        }, {
+          "name" : "Major pathway of rRNA processing in the nucleolus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-6791226"
+        }, {
+          "name" : "Formation of the ternary complex, and subsequently, the 43S complex",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-72695"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-975956"
+        }, {
+          "name" : "GTP hydrolysis and joining of the 60S ribosomal subunit",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-72706"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-975956"
+        }, {
+          "name" : "Major pathway of rRNA processing in the nucleolus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-6791226"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-975956"
+        }, {
+          "name" : "rRNA modification in the nucleus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6790901"
+        }, {
+          "name" : "SARS-CoV-1 modulates host translation machinery",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9735869"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-975957"
+        }, {
+          "name" : "Eukaryotic Translation Termination",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-72764"
+        }, {
+          "name" : "Formation of the ternary complex, and subsequently, the 43S complex",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-72695"
+        }, {
+          "name" : "Formation of the ternary complex, and subsequently, the 43S complex",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-72695"
+        }, {
+          "name" : "Translation initiation complex formation",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-72649"
+        }, {
+          "name" : "Mitochondrial translation initiation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5368286"
+        }, {
+          "name" : "Mitochondrial translation termination",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5419276"
+        }, {
+          "name" : "SRP-dependent cotranslational protein targeting to membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-1799339"
+        }, {
+          "name" : "Peptide chain elongation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-156902"
+        }, {
+          "name" : "GTP hydrolysis and joining of the 60S ribosomal subunit",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-72706"
+        }, {
+          "name" : "Mitochondrial translation termination",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-5419276"
+        }, {
+          "name" : "L13a-mediated translational silencing of Ceruloplasmin expression",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-156827"
+        }, {
+          "name" : "Translation initiation complex formation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-72649"
+        }, {
+          "name" : "SRP-dependent cotranslational protein targeting to membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-1799339"
+        }, {
+          "name" : "Formation of a pool of free 40S subunits",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-72689"
+        }, {
+          "name" : "Mitochondrial translation elongation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-5389840"
+        }, {
+          "name" : "Ribosomal scanning and start codon recognition",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-72702"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-975957"
+        }, {
+          "name" : "Formation of a pool of free 40S subunits",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-72689"
+        }, {
+          "name" : "Formation of the ternary complex, and subsequently, the 43S complex",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-72695"
+        }, {
+          "name" : "Formation of a pool of free 40S subunits",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-72689"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-975957"
+        }, {
+          "name" : "L13a-mediated translational silencing of Ceruloplasmin expression",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-156827"
+        }, {
+          "name" : "Translation initiation complex formation",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-72649"
+        }, {
+          "name" : "L13a-mediated translational silencing of Ceruloplasmin expression",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-156827"
+        }, {
+          "name" : "Major pathway of rRNA processing in the nucleolus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-6791226"
+        }, {
+          "name" : "L13a-mediated translational silencing of Ceruloplasmin expression",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-156827"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-975956"
+        }, {
+          "name" : "Major pathway of rRNA processing in the nucleolus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-6791226"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-975956"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 5,
+      "end" : 133,
+      "representative" : false,
+      "hmmStart" : 5,
+      "hmmEnd" : 133,
+      "hmmLength" : 133,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "evalue" : 1.2E-57,
+      "score" : 179.7,
+      "envelopeStart" : 1,
+      "envelopeEnd" : 133,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 5,
+        "end" : 133,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.2E-57,
+    "score" : 179.7,
+    "model-ac" : "PIRSF002131"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:3.30.420.80:FF:000001",
+      "name" : null,
+      "description" : "30S ribosomal protein S11",
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "FUNFAM",
+        "version" : "4.3.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 2,
+      "end" : 133,
+      "representative" : false,
+      "hmmStart" : 4,
+      "hmmEnd" : 129,
+      "hmmLength" : 129,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "evalue" : 4.4E-66,
+      "score" : 222.8,
+      "envelopeStart" : 2,
+      "envelopeEnd" : 133,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 2,
+        "end" : 133,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.8E-66,
+    "score" : 223.1,
+    "model-ac" : "3.30.420.80-FF-000001"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:3.30.420.80",
+      "name" : "Ribosomal protein S11",
+      "description" : null,
+      "type" : "HOMOLOGOUS_SUPERFAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.3.0"
+      },
+      "entry" : {
+        "accession" : "IPR036967",
+        "name" : "Ribosomal_uS11_sf",
+        "description" : "Small ribosomal subunit protein uS11 superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ {
+          "name" : "ribosome",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0005840"
+        }, {
+          "name" : "structural constituent of ribosome",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003735"
+        }, {
+          "name" : "translation",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006412"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "SRP-dependent cotranslational protein targeting to membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1799339"
+        }, {
+          "name" : "Viral mRNA Translation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-192823"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-975957"
+        }, {
+          "name" : "Translation initiation complex formation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-72649"
+        }, {
+          "name" : "SRP-dependent cotranslational protein targeting to membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-1799339"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-975957"
+        }, {
+          "name" : "SRP-dependent cotranslational protein targeting to membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1799339"
+        }, {
+          "name" : "GTP hydrolysis and joining of the 60S ribosomal subunit",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-72706"
+        }, {
+          "name" : "Ribosomal scanning and start codon recognition",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-72702"
+        }, {
+          "name" : "Major pathway of rRNA processing in the nucleolus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6791226"
+        }, {
+          "name" : "Formation of a pool of free 40S subunits",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-72689"
+        }, {
+          "name" : "Selenocysteine synthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2408557"
+        }, {
+          "name" : "Translation initiation complex formation",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-72649"
+        }, {
+          "name" : "Ribosomal scanning and start codon recognition",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-72702"
+        }, {
+          "name" : "Formation of a pool of free 40S subunits",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-72689"
+        }, {
+          "name" : "Translation initiation complex formation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-72649"
+        }, {
+          "name" : "GTP hydrolysis and joining of the 60S ribosomal subunit",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-72706"
+        }, {
+          "name" : "Major pathway of rRNA processing in the nucleolus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-6791226"
+        }, {
+          "name" : "SRP-dependent cotranslational protein targeting to membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-1799339"
+        }, {
+          "name" : "L13a-mediated translational silencing of Ceruloplasmin expression",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-156827"
+        }, {
+          "name" : "Major pathway of rRNA processing in the nucleolus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-6791226"
+        }, {
+          "name" : "Regulation of expression of SLITs and ROBOs",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9010553"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-975956"
+        }, {
+          "name" : "SARS-CoV-2 modulates host translation machinery",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9754678"
+        }, {
+          "name" : "GTP hydrolysis and joining of the 60S ribosomal subunit",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-72706"
+        }, {
+          "name" : "Formation of the ternary complex, and subsequently, the 43S complex",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-72695"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-975957"
+        }, {
+          "name" : "Ribosomal scanning and start codon recognition",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-72702"
+        }, {
+          "name" : "Ribosomal scanning and start codon recognition",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-72702"
+        }, {
+          "name" : "Formation of the ternary complex, and subsequently, the 43S complex",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-72695"
+        }, {
+          "name" : "Response of EIF2AK4 (GCN2) to amino acid deficiency",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9633012"
+        }, {
+          "name" : "GTP hydrolysis and joining of the 60S ribosomal subunit",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-72706"
+        }, {
+          "name" : "Mitochondrial translation elongation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5389840"
+        }, {
+          "name" : "GTP hydrolysis and joining of the 60S ribosomal subunit",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-72706"
+        }, {
+          "name" : "L13a-mediated translational silencing of Ceruloplasmin expression",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-156827"
+        }, {
+          "name" : "L13a-mediated translational silencing of Ceruloplasmin expression",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-156827"
+        }, {
+          "name" : "Ribosomal scanning and start codon recognition",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-72702"
+        }, {
+          "name" : "SRP-dependent cotranslational protein targeting to membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-1799339"
+        }, {
+          "name" : "Formation of a pool of free 40S subunits",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-72689"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-975956"
+        }, {
+          "name" : "Ribosomal scanning and start codon recognition",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-72702"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-975957"
+        }, {
+          "name" : "Formation of a pool of free 40S subunits",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-72689"
+        }, {
+          "name" : "Formation of the ternary complex, and subsequently, the 43S complex",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-72695"
+        }, {
+          "name" : "Major pathway of rRNA processing in the nucleolus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-6791226"
+        }, {
+          "name" : "Formation of the ternary complex, and subsequently, the 43S complex",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-72695"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-975956"
+        }, {
+          "name" : "GTP hydrolysis and joining of the 60S ribosomal subunit",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-72706"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-975956"
+        }, {
+          "name" : "Major pathway of rRNA processing in the nucleolus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-6791226"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-975956"
+        }, {
+          "name" : "rRNA modification in the nucleus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6790901"
+        }, {
+          "name" : "SARS-CoV-1 modulates host translation machinery",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9735869"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-975957"
+        }, {
+          "name" : "Mitochondrial translation elongation",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-5389840"
+        }, {
+          "name" : "Eukaryotic Translation Termination",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-72764"
+        }, {
+          "name" : "Formation of the ternary complex, and subsequently, the 43S complex",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-72695"
+        }, {
+          "name" : "Formation of the ternary complex, and subsequently, the 43S complex",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-72695"
+        }, {
+          "name" : "Translation initiation complex formation",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-72649"
+        }, {
+          "name" : "Mitochondrial translation initiation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5368286"
+        }, {
+          "name" : "Mitochondrial translation termination",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-5419276"
+        }, {
+          "name" : "Mitochondrial translation termination",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5419276"
+        }, {
+          "name" : "SRP-dependent cotranslational protein targeting to membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-1799339"
+        }, {
+          "name" : "Peptide chain elongation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-156902"
+        }, {
+          "name" : "GTP hydrolysis and joining of the 60S ribosomal subunit",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-72706"
+        }, {
+          "name" : "Mitochondrial translation termination",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-5419276"
+        }, {
+          "name" : "Mitochondrial translation termination",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-5419276"
+        }, {
+          "name" : "L13a-mediated translational silencing of Ceruloplasmin expression",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-156827"
+        }, {
+          "name" : "Mitochondrial translation elongation",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-5389840"
+        }, {
+          "name" : "Translation initiation complex formation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-72649"
+        }, {
+          "name" : "SRP-dependent cotranslational protein targeting to membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-1799339"
+        }, {
+          "name" : "Formation of a pool of free 40S subunits",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-72689"
+        }, {
+          "name" : "Mitochondrial translation elongation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-5389840"
+        }, {
+          "name" : "Ribosomal scanning and start codon recognition",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-72702"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-975957"
+        }, {
+          "name" : "Formation of a pool of free 40S subunits",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-72689"
+        }, {
+          "name" : "Formation of the ternary complex, and subsequently, the 43S complex",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-72695"
+        }, {
+          "name" : "Formation of a pool of free 40S subunits",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-72689"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-975957"
+        }, {
+          "name" : "L13a-mediated translational silencing of Ceruloplasmin expression",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-156827"
+        }, {
+          "name" : "Translation initiation complex formation",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-72649"
+        }, {
+          "name" : "L13a-mediated translational silencing of Ceruloplasmin expression",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-156827"
+        }, {
+          "name" : "Major pathway of rRNA processing in the nucleolus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-6791226"
+        }, {
+          "name" : "L13a-mediated translational silencing of Ceruloplasmin expression",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-156827"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-975956"
+        }, {
+          "name" : "Major pathway of rRNA processing in the nucleolus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-6791226"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-975956"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 5,
+      "end" : 133,
+      "representative" : true,
+      "hmmStart" : 6,
+      "hmmEnd" : 129,
+      "hmmLength" : 129,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 1.0E-51,
+      "score" : 176.4,
+      "envelopeStart" : 5,
+      "envelopeEnd" : 133,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 5,
+        "end" : 133,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 8.9E-52,
+    "score" : 176.6,
+    "model-ac" : "1vs5K00"
+  }, {
+    "signature" : {
+      "accession" : "PS00054",
+      "name" : "RIBOSOMAL_S11",
+      "description" : "Ribosomal protein S11 signature.",
+      "type" : "CONSERVED_SITE",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PATTERNS",
+        "version" : "2025_01"
+      },
+      "entry" : {
+        "accession" : "IPR018102",
+        "name" : "Ribosomal_uS11_CS",
+        "description" : "Small ribosomal subunit protein uS11, conserved site",
+        "type" : "CONSERVED_SITE",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "SRP-dependent cotranslational protein targeting to membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1799339"
+        }, {
+          "name" : "Viral mRNA Translation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-192823"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-975957"
+        }, {
+          "name" : "Translation initiation complex formation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-72649"
+        }, {
+          "name" : "SRP-dependent cotranslational protein targeting to membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-1799339"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-975957"
+        }, {
+          "name" : "SRP-dependent cotranslational protein targeting to membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1799339"
+        }, {
+          "name" : "GTP hydrolysis and joining of the 60S ribosomal subunit",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-72706"
+        }, {
+          "name" : "Ribosomal scanning and start codon recognition",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-72702"
+        }, {
+          "name" : "Major pathway of rRNA processing in the nucleolus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6791226"
+        }, {
+          "name" : "Formation of a pool of free 40S subunits",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-72689"
+        }, {
+          "name" : "Selenocysteine synthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2408557"
+        }, {
+          "name" : "Translation initiation complex formation",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-72649"
+        }, {
+          "name" : "Ribosomal scanning and start codon recognition",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-72702"
+        }, {
+          "name" : "Formation of a pool of free 40S subunits",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-72689"
+        }, {
+          "name" : "Translation initiation complex formation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-72649"
+        }, {
+          "name" : "GTP hydrolysis and joining of the 60S ribosomal subunit",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-72706"
+        }, {
+          "name" : "Major pathway of rRNA processing in the nucleolus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-6791226"
+        }, {
+          "name" : "SRP-dependent cotranslational protein targeting to membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-1799339"
+        }, {
+          "name" : "L13a-mediated translational silencing of Ceruloplasmin expression",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-156827"
+        }, {
+          "name" : "Major pathway of rRNA processing in the nucleolus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-6791226"
+        }, {
+          "name" : "Regulation of expression of SLITs and ROBOs",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9010553"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-975956"
+        }, {
+          "name" : "SARS-CoV-2 modulates host translation machinery",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9754678"
+        }, {
+          "name" : "GTP hydrolysis and joining of the 60S ribosomal subunit",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-72706"
+        }, {
+          "name" : "Formation of the ternary complex, and subsequently, the 43S complex",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-72695"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-975957"
+        }, {
+          "name" : "Ribosomal scanning and start codon recognition",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-72702"
+        }, {
+          "name" : "Ribosomal scanning and start codon recognition",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-72702"
+        }, {
+          "name" : "Formation of the ternary complex, and subsequently, the 43S complex",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-72695"
+        }, {
+          "name" : "Response of EIF2AK4 (GCN2) to amino acid deficiency",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9633012"
+        }, {
+          "name" : "GTP hydrolysis and joining of the 60S ribosomal subunit",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-72706"
+        }, {
+          "name" : "Mitochondrial translation elongation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5389840"
+        }, {
+          "name" : "GTP hydrolysis and joining of the 60S ribosomal subunit",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-72706"
+        }, {
+          "name" : "L13a-mediated translational silencing of Ceruloplasmin expression",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-156827"
+        }, {
+          "name" : "L13a-mediated translational silencing of Ceruloplasmin expression",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-156827"
+        }, {
+          "name" : "Ribosomal scanning and start codon recognition",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-72702"
+        }, {
+          "name" : "SRP-dependent cotranslational protein targeting to membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-1799339"
+        }, {
+          "name" : "Formation of a pool of free 40S subunits",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-72689"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-975956"
+        }, {
+          "name" : "Ribosomal scanning and start codon recognition",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-72702"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-975957"
+        }, {
+          "name" : "Formation of a pool of free 40S subunits",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-72689"
+        }, {
+          "name" : "Formation of the ternary complex, and subsequently, the 43S complex",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-72695"
+        }, {
+          "name" : "Major pathway of rRNA processing in the nucleolus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-6791226"
+        }, {
+          "name" : "Formation of the ternary complex, and subsequently, the 43S complex",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-72695"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-975956"
+        }, {
+          "name" : "GTP hydrolysis and joining of the 60S ribosomal subunit",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-72706"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-975956"
+        }, {
+          "name" : "Major pathway of rRNA processing in the nucleolus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-6791226"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-975956"
+        }, {
+          "name" : "rRNA modification in the nucleus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6790901"
+        }, {
+          "name" : "SARS-CoV-1 modulates host translation machinery",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9735869"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-975957"
+        }, {
+          "name" : "Eukaryotic Translation Termination",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-72764"
+        }, {
+          "name" : "Formation of the ternary complex, and subsequently, the 43S complex",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-72695"
+        }, {
+          "name" : "Formation of the ternary complex, and subsequently, the 43S complex",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-72695"
+        }, {
+          "name" : "Translation initiation complex formation",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-72649"
+        }, {
+          "name" : "Mitochondrial translation initiation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5368286"
+        }, {
+          "name" : "Mitochondrial translation termination",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5419276"
+        }, {
+          "name" : "SRP-dependent cotranslational protein targeting to membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-1799339"
+        }, {
+          "name" : "Peptide chain elongation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-156902"
+        }, {
+          "name" : "GTP hydrolysis and joining of the 60S ribosomal subunit",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-72706"
+        }, {
+          "name" : "Mitochondrial translation termination",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-5419276"
+        }, {
+          "name" : "L13a-mediated translational silencing of Ceruloplasmin expression",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-156827"
+        }, {
+          "name" : "Translation initiation complex formation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-72649"
+        }, {
+          "name" : "SRP-dependent cotranslational protein targeting to membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-1799339"
+        }, {
+          "name" : "Formation of a pool of free 40S subunits",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-72689"
+        }, {
+          "name" : "Mitochondrial translation elongation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-5389840"
+        }, {
+          "name" : "Ribosomal scanning and start codon recognition",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-72702"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-975957"
+        }, {
+          "name" : "Formation of a pool of free 40S subunits",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-72689"
+        }, {
+          "name" : "Formation of the ternary complex, and subsequently, the 43S complex",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-72695"
+        }, {
+          "name" : "Formation of a pool of free 40S subunits",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-72689"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-975957"
+        }, {
+          "name" : "L13a-mediated translational silencing of Ceruloplasmin expression",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-156827"
+        }, {
+          "name" : "Translation initiation complex formation",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-72649"
+        }, {
+          "name" : "L13a-mediated translational silencing of Ceruloplasmin expression",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-156827"
+        }, {
+          "name" : "Major pathway of rRNA processing in the nucleolus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-6791226"
+        }, {
+          "name" : "L13a-mediated translational silencing of Ceruloplasmin expression",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-156827"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-975956"
+        }, {
+          "name" : "Major pathway of rRNA processing in the nucleolus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-6791226"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-975956"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 101,
+      "end" : 123,
+      "representative" : false,
+      "level" : "STRONG",
+      "cigarAlignment" : "1M1I2M2I3M1I1M4I1M1I2M1I3M",
+      "alignment" : "VrALhgLGIkItaisDvTPiPHN",
+      "location-fragments" : [ {
+        "start" : 101,
+        "end" : 123,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS00054"
+  }, {
+    "signature" : {
+      "accession" : "MF_01310",
+      "name" : "Ribosomal_uS11",
+      "description" : "Small ribosomal subunit protein uS11 [rpsK].",
+      "type" : "FAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "HAMAP",
+        "version" : "2025_01"
+      },
+      "entry" : {
+        "accession" : "IPR001971",
+        "name" : "Ribosomal_uS11",
+        "description" : "Small ribosomal subunit protein uS11",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "ribosome",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0005840"
+        }, {
+          "name" : "structural constituent of ribosome",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003735"
+        }, {
+          "name" : "translation",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006412"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "SRP-dependent cotranslational protein targeting to membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1799339"
+        }, {
+          "name" : "Viral mRNA Translation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-192823"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-975957"
+        }, {
+          "name" : "Translation initiation complex formation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-72649"
+        }, {
+          "name" : "SRP-dependent cotranslational protein targeting to membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-1799339"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-975957"
+        }, {
+          "name" : "SRP-dependent cotranslational protein targeting to membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1799339"
+        }, {
+          "name" : "GTP hydrolysis and joining of the 60S ribosomal subunit",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-72706"
+        }, {
+          "name" : "Ribosomal scanning and start codon recognition",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-72702"
+        }, {
+          "name" : "Major pathway of rRNA processing in the nucleolus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6791226"
+        }, {
+          "name" : "Formation of a pool of free 40S subunits",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-72689"
+        }, {
+          "name" : "Selenocysteine synthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2408557"
+        }, {
+          "name" : "Translation initiation complex formation",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-72649"
+        }, {
+          "name" : "Ribosomal scanning and start codon recognition",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-72702"
+        }, {
+          "name" : "Formation of a pool of free 40S subunits",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-72689"
+        }, {
+          "name" : "Translation initiation complex formation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-72649"
+        }, {
+          "name" : "GTP hydrolysis and joining of the 60S ribosomal subunit",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-72706"
+        }, {
+          "name" : "Major pathway of rRNA processing in the nucleolus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-6791226"
+        }, {
+          "name" : "SRP-dependent cotranslational protein targeting to membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-1799339"
+        }, {
+          "name" : "L13a-mediated translational silencing of Ceruloplasmin expression",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-156827"
+        }, {
+          "name" : "Major pathway of rRNA processing in the nucleolus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-6791226"
+        }, {
+          "name" : "Regulation of expression of SLITs and ROBOs",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9010553"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-975956"
+        }, {
+          "name" : "SARS-CoV-2 modulates host translation machinery",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9754678"
+        }, {
+          "name" : "GTP hydrolysis and joining of the 60S ribosomal subunit",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-72706"
+        }, {
+          "name" : "Formation of the ternary complex, and subsequently, the 43S complex",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-72695"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-975957"
+        }, {
+          "name" : "Ribosomal scanning and start codon recognition",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-72702"
+        }, {
+          "name" : "Ribosomal scanning and start codon recognition",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-72702"
+        }, {
+          "name" : "Formation of the ternary complex, and subsequently, the 43S complex",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-72695"
+        }, {
+          "name" : "Response of EIF2AK4 (GCN2) to amino acid deficiency",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9633012"
+        }, {
+          "name" : "GTP hydrolysis and joining of the 60S ribosomal subunit",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-72706"
+        }, {
+          "name" : "Mitochondrial translation elongation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5389840"
+        }, {
+          "name" : "GTP hydrolysis and joining of the 60S ribosomal subunit",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-72706"
+        }, {
+          "name" : "L13a-mediated translational silencing of Ceruloplasmin expression",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-156827"
+        }, {
+          "name" : "L13a-mediated translational silencing of Ceruloplasmin expression",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-156827"
+        }, {
+          "name" : "Ribosomal scanning and start codon recognition",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-72702"
+        }, {
+          "name" : "SRP-dependent cotranslational protein targeting to membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-1799339"
+        }, {
+          "name" : "Formation of a pool of free 40S subunits",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-72689"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-975956"
+        }, {
+          "name" : "Ribosomal scanning and start codon recognition",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-72702"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-975957"
+        }, {
+          "name" : "Formation of a pool of free 40S subunits",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-72689"
+        }, {
+          "name" : "Formation of the ternary complex, and subsequently, the 43S complex",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-72695"
+        }, {
+          "name" : "Major pathway of rRNA processing in the nucleolus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-6791226"
+        }, {
+          "name" : "Formation of the ternary complex, and subsequently, the 43S complex",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-72695"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-975956"
+        }, {
+          "name" : "GTP hydrolysis and joining of the 60S ribosomal subunit",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-72706"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-975956"
+        }, {
+          "name" : "Major pathway of rRNA processing in the nucleolus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-6791226"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-975956"
+        }, {
+          "name" : "rRNA modification in the nucleus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6790901"
+        }, {
+          "name" : "SARS-CoV-1 modulates host translation machinery",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9735869"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-975957"
+        }, {
+          "name" : "Eukaryotic Translation Termination",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-72764"
+        }, {
+          "name" : "Formation of the ternary complex, and subsequently, the 43S complex",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-72695"
+        }, {
+          "name" : "Formation of the ternary complex, and subsequently, the 43S complex",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-72695"
+        }, {
+          "name" : "Translation initiation complex formation",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-72649"
+        }, {
+          "name" : "Mitochondrial translation initiation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5368286"
+        }, {
+          "name" : "Mitochondrial translation termination",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5419276"
+        }, {
+          "name" : "SRP-dependent cotranslational protein targeting to membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-1799339"
+        }, {
+          "name" : "Peptide chain elongation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-156902"
+        }, {
+          "name" : "GTP hydrolysis and joining of the 60S ribosomal subunit",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-72706"
+        }, {
+          "name" : "Mitochondrial translation termination",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-5419276"
+        }, {
+          "name" : "L13a-mediated translational silencing of Ceruloplasmin expression",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-156827"
+        }, {
+          "name" : "Translation initiation complex formation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-72649"
+        }, {
+          "name" : "SRP-dependent cotranslational protein targeting to membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-1799339"
+        }, {
+          "name" : "Formation of a pool of free 40S subunits",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-72689"
+        }, {
+          "name" : "Mitochondrial translation elongation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-5389840"
+        }, {
+          "name" : "Ribosomal scanning and start codon recognition",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-72702"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-975957"
+        }, {
+          "name" : "Formation of a pool of free 40S subunits",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-72689"
+        }, {
+          "name" : "Formation of the ternary complex, and subsequently, the 43S complex",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-72695"
+        }, {
+          "name" : "Formation of a pool of free 40S subunits",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-72689"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-975957"
+        }, {
+          "name" : "L13a-mediated translational silencing of Ceruloplasmin expression",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-156827"
+        }, {
+          "name" : "Translation initiation complex formation",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-72649"
+        }, {
+          "name" : "L13a-mediated translational silencing of Ceruloplasmin expression",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-156827"
+        }, {
+          "name" : "Major pathway of rRNA processing in the nucleolus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-6791226"
+        }, {
+          "name" : "L13a-mediated translational silencing of Ceruloplasmin expression",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-156827"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-975956"
+        }, {
+          "name" : "Major pathway of rRNA processing in the nucleolus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-6791226"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-975956"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 3,
+      "end" : 133,
+      "representative" : true,
+      "score" : 33.298405,
+      "alignment" : "KASNTAAQrvRKKVKKNVAEGVVHVHASFNNTIITITDRQGNALAWATSGGAGFKGSRKSTPFAAQVAAESAGRVAME-YGVKNLEVRIKGPGPGRESAVRALHGLGIKITAISDVTPIPHNGCRPPKKRRI",
+      "location-fragments" : [ {
+        "start" : 3,
+        "end" : 133,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "MF_01310"
+  }, {
+    "signature" : {
+      "accession" : "PF00411",
+      "name" : "Ribosomal_S11",
+      "description" : "Ribosomal protein S11",
+      "type" : "FAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "38.0"
+      },
+      "entry" : {
+        "accession" : "IPR001971",
+        "name" : "Ribosomal_uS11",
+        "description" : "Small ribosomal subunit protein uS11",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "ribosome",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0005840"
+        }, {
+          "name" : "structural constituent of ribosome",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003735"
+        }, {
+          "name" : "translation",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006412"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "SRP-dependent cotranslational protein targeting to membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1799339"
+        }, {
+          "name" : "Viral mRNA Translation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-192823"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-975957"
+        }, {
+          "name" : "Translation initiation complex formation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-72649"
+        }, {
+          "name" : "SRP-dependent cotranslational protein targeting to membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-1799339"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-975957"
+        }, {
+          "name" : "SRP-dependent cotranslational protein targeting to membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1799339"
+        }, {
+          "name" : "GTP hydrolysis and joining of the 60S ribosomal subunit",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-72706"
+        }, {
+          "name" : "Ribosomal scanning and start codon recognition",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-72702"
+        }, {
+          "name" : "Major pathway of rRNA processing in the nucleolus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6791226"
+        }, {
+          "name" : "Formation of a pool of free 40S subunits",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-72689"
+        }, {
+          "name" : "Selenocysteine synthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2408557"
+        }, {
+          "name" : "Translation initiation complex formation",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-72649"
+        }, {
+          "name" : "Ribosomal scanning and start codon recognition",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-72702"
+        }, {
+          "name" : "Formation of a pool of free 40S subunits",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-72689"
+        }, {
+          "name" : "Translation initiation complex formation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-72649"
+        }, {
+          "name" : "GTP hydrolysis and joining of the 60S ribosomal subunit",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-72706"
+        }, {
+          "name" : "Major pathway of rRNA processing in the nucleolus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-6791226"
+        }, {
+          "name" : "SRP-dependent cotranslational protein targeting to membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-1799339"
+        }, {
+          "name" : "L13a-mediated translational silencing of Ceruloplasmin expression",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-156827"
+        }, {
+          "name" : "Major pathway of rRNA processing in the nucleolus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-6791226"
+        }, {
+          "name" : "Regulation of expression of SLITs and ROBOs",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9010553"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-975956"
+        }, {
+          "name" : "SARS-CoV-2 modulates host translation machinery",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9754678"
+        }, {
+          "name" : "GTP hydrolysis and joining of the 60S ribosomal subunit",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-72706"
+        }, {
+          "name" : "Formation of the ternary complex, and subsequently, the 43S complex",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-72695"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-975957"
+        }, {
+          "name" : "Ribosomal scanning and start codon recognition",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-72702"
+        }, {
+          "name" : "Ribosomal scanning and start codon recognition",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-72702"
+        }, {
+          "name" : "Formation of the ternary complex, and subsequently, the 43S complex",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-72695"
+        }, {
+          "name" : "Response of EIF2AK4 (GCN2) to amino acid deficiency",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9633012"
+        }, {
+          "name" : "GTP hydrolysis and joining of the 60S ribosomal subunit",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-72706"
+        }, {
+          "name" : "Mitochondrial translation elongation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5389840"
+        }, {
+          "name" : "GTP hydrolysis and joining of the 60S ribosomal subunit",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-72706"
+        }, {
+          "name" : "L13a-mediated translational silencing of Ceruloplasmin expression",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-156827"
+        }, {
+          "name" : "L13a-mediated translational silencing of Ceruloplasmin expression",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-156827"
+        }, {
+          "name" : "Ribosomal scanning and start codon recognition",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-72702"
+        }, {
+          "name" : "SRP-dependent cotranslational protein targeting to membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-1799339"
+        }, {
+          "name" : "Formation of a pool of free 40S subunits",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-72689"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-975956"
+        }, {
+          "name" : "Ribosomal scanning and start codon recognition",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-72702"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-975957"
+        }, {
+          "name" : "Formation of a pool of free 40S subunits",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-72689"
+        }, {
+          "name" : "Formation of the ternary complex, and subsequently, the 43S complex",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-72695"
+        }, {
+          "name" : "Major pathway of rRNA processing in the nucleolus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-6791226"
+        }, {
+          "name" : "Formation of the ternary complex, and subsequently, the 43S complex",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-72695"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-975956"
+        }, {
+          "name" : "GTP hydrolysis and joining of the 60S ribosomal subunit",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-72706"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-975956"
+        }, {
+          "name" : "Major pathway of rRNA processing in the nucleolus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-6791226"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-975956"
+        }, {
+          "name" : "rRNA modification in the nucleus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6790901"
+        }, {
+          "name" : "SARS-CoV-1 modulates host translation machinery",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9735869"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-975957"
+        }, {
+          "name" : "Eukaryotic Translation Termination",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-72764"
+        }, {
+          "name" : "Formation of the ternary complex, and subsequently, the 43S complex",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-72695"
+        }, {
+          "name" : "Formation of the ternary complex, and subsequently, the 43S complex",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-72695"
+        }, {
+          "name" : "Translation initiation complex formation",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-72649"
+        }, {
+          "name" : "Mitochondrial translation initiation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5368286"
+        }, {
+          "name" : "Mitochondrial translation termination",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5419276"
+        }, {
+          "name" : "SRP-dependent cotranslational protein targeting to membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-1799339"
+        }, {
+          "name" : "Peptide chain elongation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-156902"
+        }, {
+          "name" : "GTP hydrolysis and joining of the 60S ribosomal subunit",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-72706"
+        }, {
+          "name" : "Mitochondrial translation termination",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-5419276"
+        }, {
+          "name" : "L13a-mediated translational silencing of Ceruloplasmin expression",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-156827"
+        }, {
+          "name" : "Translation initiation complex formation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-72649"
+        }, {
+          "name" : "SRP-dependent cotranslational protein targeting to membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-1799339"
+        }, {
+          "name" : "Formation of a pool of free 40S subunits",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-72689"
+        }, {
+          "name" : "Mitochondrial translation elongation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-5389840"
+        }, {
+          "name" : "Ribosomal scanning and start codon recognition",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-72702"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-975957"
+        }, {
+          "name" : "Formation of a pool of free 40S subunits",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-72689"
+        }, {
+          "name" : "Formation of the ternary complex, and subsequently, the 43S complex",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-72695"
+        }, {
+          "name" : "Formation of a pool of free 40S subunits",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-72689"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-975957"
+        }, {
+          "name" : "L13a-mediated translational silencing of Ceruloplasmin expression",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-156827"
+        }, {
+          "name" : "Translation initiation complex formation",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-72649"
+        }, {
+          "name" : "L13a-mediated translational silencing of Ceruloplasmin expression",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-156827"
+        }, {
+          "name" : "Major pathway of rRNA processing in the nucleolus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-6791226"
+        }, {
+          "name" : "L13a-mediated translational silencing of Ceruloplasmin expression",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-156827"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-975956"
+        }, {
+          "name" : "Major pathway of rRNA processing in the nucleolus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-6791226"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-975956"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 23,
+      "end" : 132,
+      "representative" : false,
+      "hmmStart" : 1,
+      "hmmEnd" : 110,
+      "hmmLength" : 110,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 1.5E-47,
+      "score" : 172.0,
+      "envelopeStart" : 23,
+      "envelopeEnd" : 132,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 23,
+        "end" : 132,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.5E-47,
+    "score" : 172.0,
+    "model-ac" : "PF00411"
+  }, {
+    "signature" : {
+      "accession" : "PTHR11759",
+      "name" : "40S RIBOSOMAL PROTEIN S14/30S RIBOSOMAL PROTEIN S11",
+      "description" : null,
+      "type" : "FAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "19.0"
+      },
+      "entry" : {
+        "accession" : "IPR001971",
+        "name" : "Ribosomal_uS11",
+        "description" : "Small ribosomal subunit protein uS11",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "ribosome",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0005840"
+        }, {
+          "name" : "structural constituent of ribosome",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003735"
+        }, {
+          "name" : "translation",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006412"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "SRP-dependent cotranslational protein targeting to membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1799339"
+        }, {
+          "name" : "Viral mRNA Translation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-192823"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-975957"
+        }, {
+          "name" : "Translation initiation complex formation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-72649"
+        }, {
+          "name" : "SRP-dependent cotranslational protein targeting to membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-1799339"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-975957"
+        }, {
+          "name" : "SRP-dependent cotranslational protein targeting to membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1799339"
+        }, {
+          "name" : "GTP hydrolysis and joining of the 60S ribosomal subunit",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-72706"
+        }, {
+          "name" : "Ribosomal scanning and start codon recognition",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-72702"
+        }, {
+          "name" : "Major pathway of rRNA processing in the nucleolus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6791226"
+        }, {
+          "name" : "Formation of a pool of free 40S subunits",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-72689"
+        }, {
+          "name" : "Selenocysteine synthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2408557"
+        }, {
+          "name" : "Translation initiation complex formation",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-72649"
+        }, {
+          "name" : "Ribosomal scanning and start codon recognition",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-72702"
+        }, {
+          "name" : "Formation of a pool of free 40S subunits",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-72689"
+        }, {
+          "name" : "Translation initiation complex formation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-72649"
+        }, {
+          "name" : "GTP hydrolysis and joining of the 60S ribosomal subunit",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-72706"
+        }, {
+          "name" : "Major pathway of rRNA processing in the nucleolus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-6791226"
+        }, {
+          "name" : "SRP-dependent cotranslational protein targeting to membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-1799339"
+        }, {
+          "name" : "L13a-mediated translational silencing of Ceruloplasmin expression",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-156827"
+        }, {
+          "name" : "Major pathway of rRNA processing in the nucleolus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-6791226"
+        }, {
+          "name" : "Regulation of expression of SLITs and ROBOs",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9010553"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-975956"
+        }, {
+          "name" : "SARS-CoV-2 modulates host translation machinery",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9754678"
+        }, {
+          "name" : "GTP hydrolysis and joining of the 60S ribosomal subunit",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-72706"
+        }, {
+          "name" : "Formation of the ternary complex, and subsequently, the 43S complex",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-72695"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-975957"
+        }, {
+          "name" : "Ribosomal scanning and start codon recognition",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-72702"
+        }, {
+          "name" : "Ribosomal scanning and start codon recognition",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-72702"
+        }, {
+          "name" : "Formation of the ternary complex, and subsequently, the 43S complex",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-72695"
+        }, {
+          "name" : "Response of EIF2AK4 (GCN2) to amino acid deficiency",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9633012"
+        }, {
+          "name" : "GTP hydrolysis and joining of the 60S ribosomal subunit",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-72706"
+        }, {
+          "name" : "Mitochondrial translation elongation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5389840"
+        }, {
+          "name" : "GTP hydrolysis and joining of the 60S ribosomal subunit",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-72706"
+        }, {
+          "name" : "L13a-mediated translational silencing of Ceruloplasmin expression",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-156827"
+        }, {
+          "name" : "L13a-mediated translational silencing of Ceruloplasmin expression",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-156827"
+        }, {
+          "name" : "Ribosomal scanning and start codon recognition",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-72702"
+        }, {
+          "name" : "SRP-dependent cotranslational protein targeting to membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-1799339"
+        }, {
+          "name" : "Formation of a pool of free 40S subunits",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-72689"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-975956"
+        }, {
+          "name" : "Ribosomal scanning and start codon recognition",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-72702"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-975957"
+        }, {
+          "name" : "Formation of a pool of free 40S subunits",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-72689"
+        }, {
+          "name" : "Formation of the ternary complex, and subsequently, the 43S complex",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-72695"
+        }, {
+          "name" : "Major pathway of rRNA processing in the nucleolus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-6791226"
+        }, {
+          "name" : "Formation of the ternary complex, and subsequently, the 43S complex",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-72695"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-975956"
+        }, {
+          "name" : "GTP hydrolysis and joining of the 60S ribosomal subunit",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-72706"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-975956"
+        }, {
+          "name" : "Major pathway of rRNA processing in the nucleolus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-6791226"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-975956"
+        }, {
+          "name" : "rRNA modification in the nucleus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6790901"
+        }, {
+          "name" : "SARS-CoV-1 modulates host translation machinery",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9735869"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-975957"
+        }, {
+          "name" : "Eukaryotic Translation Termination",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-72764"
+        }, {
+          "name" : "Formation of the ternary complex, and subsequently, the 43S complex",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-72695"
+        }, {
+          "name" : "Formation of the ternary complex, and subsequently, the 43S complex",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-72695"
+        }, {
+          "name" : "Translation initiation complex formation",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-72649"
+        }, {
+          "name" : "Mitochondrial translation initiation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5368286"
+        }, {
+          "name" : "Mitochondrial translation termination",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5419276"
+        }, {
+          "name" : "SRP-dependent cotranslational protein targeting to membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-1799339"
+        }, {
+          "name" : "Peptide chain elongation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-156902"
+        }, {
+          "name" : "GTP hydrolysis and joining of the 60S ribosomal subunit",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-72706"
+        }, {
+          "name" : "Mitochondrial translation termination",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-5419276"
+        }, {
+          "name" : "L13a-mediated translational silencing of Ceruloplasmin expression",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-156827"
+        }, {
+          "name" : "Translation initiation complex formation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-72649"
+        }, {
+          "name" : "SRP-dependent cotranslational protein targeting to membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-1799339"
+        }, {
+          "name" : "Formation of a pool of free 40S subunits",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-72689"
+        }, {
+          "name" : "Mitochondrial translation elongation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-5389840"
+        }, {
+          "name" : "Ribosomal scanning and start codon recognition",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-72702"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-975957"
+        }, {
+          "name" : "Formation of a pool of free 40S subunits",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-72689"
+        }, {
+          "name" : "Formation of the ternary complex, and subsequently, the 43S complex",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-72695"
+        }, {
+          "name" : "Formation of a pool of free 40S subunits",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-72689"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-975957"
+        }, {
+          "name" : "L13a-mediated translational silencing of Ceruloplasmin expression",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-156827"
+        }, {
+          "name" : "Translation initiation complex formation",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-72649"
+        }, {
+          "name" : "L13a-mediated translational silencing of Ceruloplasmin expression",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-156827"
+        }, {
+          "name" : "Major pathway of rRNA processing in the nucleolus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-6791226"
+        }, {
+          "name" : "L13a-mediated translational silencing of Ceruloplasmin expression",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-156827"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-975956"
+        }, {
+          "name" : "Major pathway of rRNA processing in the nucleolus and cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-6791226"
+        }, {
+          "name" : "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-975956"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 15,
+      "end" : 133,
+      "representative" : false,
+      "hmmStart" : 22,
+      "hmmEnd" : 140,
+      "hmmLength" : 0,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "envelopeStart" : 2,
+      "envelopeEnd" : 133,
+      "location-fragments" : [ {
+        "start" : 15,
+        "end" : 133,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "accession" : "PTHR11759",
+    "name" : "40S RIBOSOMAL PROTEIN S14/30S RIBOSOMAL PROTEIN S11",
+    "evalue" : 1.2E-45,
+    "score" : 166.4,
+    "proteinClass" : null,
+    "graftPoint" : null,
+    "goXRefs" : [ ],
+    "model-ac" : "PTHR11759"
+  }, {
+    "signature" : {
+      "accession" : "TIGR03632",
+      "name" : "uS11_bact",
+      "description" : "30S ribosomal protein S11",
+      "type" : "FAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "NCBIFAM",
+        "version" : "17.0"
+      },
+      "entry" : {
+        "accession" : "IPR019981",
+        "name" : "Ribosomal_uS11_bact",
+        "description" : "Small ribosomal subunit protein uS11, bacteria",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "ribosome",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0005840"
+        }, {
+          "name" : "structural constituent of ribosome",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003735"
+        }, {
+          "name" : "translation",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006412"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 14,
+      "end" : 130,
+      "representative" : false,
+      "hmmStart" : 1,
+      "hmmEnd" : 117,
+      "hmmLength" : 117,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 3.0E-52,
+      "score" : 187.3,
+      "envelopeStart" : 14,
+      "envelopeEnd" : 130,
+      "postProcessed" : false,
+      "location-fragments" : [ {
+        "start" : 14,
+        "end" : 130,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.4E-52,
+    "score" : 187.6,
+    "model-ac" : "TIGR03632"
+  } ],
+  "xref" : [ {
+    "name" : "Sequence1",
+    "id" : "Sequence1"
+  } ]
+} ]
+}

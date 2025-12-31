@@ -1,0 +1,3471 @@
+{
+ "interproscan-version": "5.76-107.0",
+"results": [ {
+  "sequence" : "MASTFSATTSSCNLMSMAAASSAMAAKARVARNARNQIGSRLSWSRNMAAKDIKFGEDGSARRKMLRGVNILADAVKVTLGPKGRNVVLEKSFGAPTITKDGVSVAKEIELEDKFENMGAQLVKEVASKTNDVARCLGDGTTTATVLAQAIVREGLKAVAAGMNPMDLKRGIDKAVAAAVEELAKKLSKPVSDSKEIAQVGTISANSDEEIGKLIAEAMEKVGKEGVITVEEGKGLETFELEVVEGMQFDRGYLSPYFVTNPEKMEAELEDPYILLTDKKISNIKQDLLPVLEAVAKANSGKKPLLIIAEDVEGEALATLVVNKLRGILKVAAVKAPGFGDRRKAMLEDIAILTGGKTVISEEGLGLKLEKATDLEDLGQAKRVVITKDNTTIVDSGAGDSDIKAAIEARVAQIRAQIEETHTSDYDREKLQERLAKLAGGVAVIKVGAATEVEMKEKKDRVEDALHATRAAVEEGIVPGGGVALIRAAAKALALNLGLDLIEKGENLNGDQNTGINIVLRALEAPLRQIAENAGTEEGSVVVEKVRTLQKEGEGDNYGYNAATGEYGEDMIEAGIIDPTKVTRSALQNAASVAGLLLTTEAMVADKPEKEKDGAGGAAADPMAGGGGADMMGAGAAAAPAMPGMGMPGMGGMGMPGMGGMAGDDMGGMGMGGMGGGMGMPGMGGDEDMGGDFDMM",
+  "md5" : "9ab290d270d9f93234c345dc9804c523",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE_C_REGION",
+      "name" : "Signal peptide C-region",
+      "description" : "C-terminal region of a signal peptide.",
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 13,
+      "end" : 25,
+      "representative" : false,
+      "location-fragments" : [ {
+        "start" : 13,
+        "end" : 25,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE_C_REGION"
+  }, {
+    "signature" : {
+      "accession" : "cd03344",
+      "name" : "GroEL",
+      "description" : "GroEL",
+      "type" : "DOMAIN",
+      "signatureLibraryRelease" : {
+        "library" : "CDD",
+        "version" : "3.21"
+      },
+      "entry" : {
+        "accession" : "IPR001844",
+        "name" : "Cpn60/GroEL",
+        "description" : "Chaperonin Cpn60/GroEL",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "ATP-dependent protein folding chaperone",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0140662"
+        }, {
+          "name" : "protein refolding",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0042026"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "TFAP2A acts as a transcriptional repressor during retinoic acid induced cell differentiation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8869496"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-1268020"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9837999"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-9837999"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-9837999"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-1268020"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-9837999"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1268020"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-1268020"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9837999"
+        }, {
+          "name" : "Mitochondrial unfolded protein response (UPRmt)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9841251"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-1268020"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-9837999"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-9837999"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1268020"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-9837999"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9837999"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 51,
+      "end" : 606,
+      "representative" : true,
+      "sites" : [ {
+        "description" : "hinge regions",
+        "numLocations" : 6,
+        "siteLocations" : [ {
+          "start" : 476,
+          "end" : 476,
+          "residue" : "G"
+        }, {
+          "start" : 441,
+          "end" : 441,
+          "residue" : "G"
+        }, {
+          "start" : 194,
+          "end" : 194,
+          "residue" : "S"
+        }, {
+          "start" : 247,
+          "end" : 247,
+          "residue" : "M"
+        }, {
+          "start" : 475,
+          "end" : 475,
+          "residue" : "E"
+        }, {
+          "start" : 240,
+          "end" : 240,
+          "residue" : "E"
+        } ]
+      }, {
+        "description" : "ATP/Mg binding site",
+        "numLocations" : 11,
+        "siteLocations" : [ {
+          "start" : 139,
+          "end" : 139,
+          "residue" : "D"
+        }, {
+          "start" : 81,
+          "end" : 81,
+          "residue" : "G"
+        }, {
+          "start" : 481,
+          "end" : 481,
+          "residue" : "G"
+        }, {
+          "start" : 80,
+          "end" : 80,
+          "residue" : "L"
+        }, {
+          "start" : 530,
+          "end" : 530,
+          "residue" : "I"
+        }, {
+          "start" : 576,
+          "end" : 576,
+          "residue" : "I"
+        }, {
+          "start" : 578,
+          "end" : 578,
+          "residue" : "D"
+        }, {
+          "start" : 143,
+          "end" : 143,
+          "residue" : "T"
+        }, {
+          "start" : 203,
+          "end" : 203,
+          "residue" : "I"
+        }, {
+          "start" : 82,
+          "end" : 82,
+          "residue" : "P"
+        }, {
+          "start" : 464,
+          "end" : 464,
+          "residue" : "D"
+        } ]
+      }, {
+        "description" : "ring oligomerisation interface",
+        "numLocations" : 30,
+        "siteLocations" : [ {
+          "start" : 122,
+          "end" : 122,
+          "residue" : "L"
+        }, {
+          "start" : 87,
+          "end" : 87,
+          "residue" : "V"
+        }, {
+          "start" : 98,
+          "end" : 98,
+          "residue" : "I"
+        }, {
+          "start" : 108,
+          "end" : 108,
+          "residue" : "E"
+        }, {
+          "start" : 95,
+          "end" : 95,
+          "residue" : "A"
+        }, {
+          "start" : 118,
+          "end" : 118,
+          "residue" : "M"
+        }, {
+          "start" : 85,
+          "end" : 85,
+          "residue" : "R"
+        }, {
+          "start" : 601,
+          "end" : 601,
+          "residue" : "E"
+        }, {
+          "start" : 110,
+          "end" : 110,
+          "residue" : "E"
+        }, {
+          "start" : 55,
+          "end" : 55,
+          "residue" : "F"
+        }, {
+          "start" : 603,
+          "end" : 603,
+          "residue" : "M"
+        }, {
+          "start" : 452,
+          "end" : 452,
+          "residue" : "E"
+        }, {
+          "start" : 86,
+          "end" : 86,
+          "residue" : "N"
+        }, {
+          "start" : 51,
+          "end" : 51,
+          "residue" : "K"
+        }, {
+          "start" : 88,
+          "end" : 88,
+          "residue" : "V"
+        }, {
+          "start" : 450,
+          "end" : 450,
+          "residue" : "A"
+        }, {
+          "start" : 96,
+          "end" : 96,
+          "residue" : "P"
+        }, {
+          "start" : 251,
+          "end" : 251,
+          "residue" : "R"
+        }, {
+          "start" : 604,
+          "end" : 604,
+          "residue" : "V"
+        }, {
+          "start" : 283,
+          "end" : 283,
+          "residue" : "N"
+        }, {
+          "start" : 535,
+          "end" : 535,
+          "residue" : "G"
+        }, {
+          "start" : 90,
+          "end" : 90,
+          "residue" : "E"
+        }, {
+          "start" : 315,
+          "end" : 315,
+          "residue" : "E"
+        }, {
+          "start" : 596,
+          "end" : 596,
+          "residue" : "L"
+        }, {
+          "start" : 602,
+          "end" : 602,
+          "residue" : "A"
+        }, {
+          "start" : 74,
+          "end" : 74,
+          "residue" : "D"
+        }, {
+          "start" : 125,
+          "end" : 125,
+          "residue" : "E"
+        }, {
+          "start" : 599,
+          "end" : 599,
+          "residue" : "T"
+        }, {
+          "start" : 605,
+          "end" : 605,
+          "residue" : "A"
+        }, {
+          "start" : 600,
+          "end" : 600,
+          "residue" : "T"
+        } ]
+      }, {
+        "description" : "stacking interactions",
+        "numLocations" : 7,
+        "siteLocations" : [ {
+          "start" : 528,
+          "end" : 528,
+          "residue" : "R"
+        }, {
+          "start" : 161,
+          "end" : 161,
+          "residue" : "A"
+        }, {
+          "start" : 540,
+          "end" : 540,
+          "residue" : "S"
+        }, {
+          "start" : 538,
+          "end" : 538,
+          "residue" : "E"
+        }, {
+          "start" : 541,
+          "end" : 541,
+          "residue" : "V"
+        }, {
+          "start" : 510,
+          "end" : 510,
+          "residue" : "G"
+        }, {
+          "start" : 544,
+          "end" : 544,
+          "residue" : "E"
+        } ]
+      } ],
+      "evalue" : 0.0,
+      "score" : 889.112,
+      "location-fragments" : [ {
+        "start" : 51,
+        "end" : 606,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "cd03344"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE_H_REGION",
+      "name" : "Signal peptide H-region",
+      "description" : "Hydrophobic region of a signal peptide.",
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 2,
+      "end" : 12,
+      "representative" : false,
+      "location-fragments" : [ {
+        "start" : 2,
+        "end" : 12,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE_H_REGION"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:1.10.560.10",
+      "name" : "",
+      "description" : null,
+      "type" : "HOMOLOGOUS_SUPERFAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.3.0"
+      },
+      "entry" : {
+        "accession" : "IPR027413",
+        "name" : "GROEL-like_equatorial_sf",
+        "description" : "GroEL-like equatorial domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "RHOBTB2 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9013418"
+        }, {
+          "name" : "RHOBTB2 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-9013418"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-390471"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6814122"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-6798695"
+        }, {
+          "name" : "RHOBTB1 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-9013422"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9837999"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-6814122"
+        }, {
+          "name" : "BBSome-mediated cargo-targeting to cilium",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5620922"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-390471"
+        }, {
+          "name" : "RHOBTB1 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9013422"
+        }, {
+          "name" : "TFAP2A acts as a transcriptional repressor during retinoic acid induced cell differentiation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8869496"
+        }, {
+          "name" : "RHOBTB1 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9013422"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-6798695"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-6798695"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1268020"
+        }, {
+          "name" : "RHOBTB1 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-9013422"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-6798695"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-390471"
+        }, {
+          "name" : "Gene and protein expression by JAK-STAT signaling after Interleukin-12 stimulation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8950505"
+        }, {
+          "name" : "RHOBTB2 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9013418"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-6798695"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-390471"
+        }, {
+          "name" : "RHOBTB2 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-9013418"
+        }, {
+          "name" : "RHOBTB2 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-9013418"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-9837999"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-1268020"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-6814122"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-6814122"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-390471"
+        }, {
+          "name" : "Prefoldin mediated transfer of substrate to CCT/TriC",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-389957"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-6814122"
+        }, {
+          "name" : "Mitochondrial unfolded protein response (UPRmt)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9841251"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-390471"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-1268020"
+        }, {
+          "name" : "RHOBTB1 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9013422"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-9837999"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-9837999"
+        }, {
+          "name" : "RHOBTB2 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9013418"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-390471"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-6814122"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-390471"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9837999"
+        }, {
+          "name" : "Formation of tubulin folding intermediates by CCT/TriC",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-389960"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-390471"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-1268020"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-PFA-6814122"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-6798695"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-6814122"
+        }, {
+          "name" : "Folding of actin by CCT/TriC",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-390450"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9837999"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-9837999"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-390471"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-6814122"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6798695"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-6814122"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-9837999"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-1268020"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-6798695"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-6814122"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-9837999"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1268020"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 53,
+      "end" : 605,
+      "representative" : false,
+      "hmmStart" : 2,
+      "hmmEnd" : 519,
+      "hmmLength" : 257,
+      "hmmBounds" : "INCOMPLETE",
+      "evalue" : 1.2E-241,
+      "score" : 804.6,
+      "envelopeStart" : 52,
+      "envelopeEnd" : 605,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 53,
+        "end" : 189,
+        "dc-status" : "C_TERMINAL_DISC"
+      }, {
+        "start" : 477,
+        "end" : 605,
+        "dc-status" : "N_TERMINAL_DISC"
+      } ]
+    } ],
+    "evalue" : 1.0E-241,
+    "score" : 804.8,
+    "model-ac" : "4pj1A01"
+  }, {
+    "signature" : {
+      "accession" : "NF009488",
+      "name" : "PRK12850.1",
+      "description" : "chaperonin GroEL",
+      "type" : "FAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "NCBIFAM",
+        "version" : "17.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 48,
+      "end" : 619,
+      "representative" : false,
+      "hmmStart" : 1,
+      "hmmEnd" : 536,
+      "hmmLength" : 544,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "evalue" : 9.6E-255,
+      "score" : 857.8,
+      "envelopeStart" : 48,
+      "envelopeEnd" : 629,
+      "postProcessed" : false,
+      "location-fragments" : [ {
+        "start" : 48,
+        "end" : 619,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 7.5E-255,
+    "score" : 858.1,
+    "model-ac" : "NF009488"
+  }, {
+    "signature" : {
+      "accession" : "TIGR02348",
+      "name" : "GroEL",
+      "description" : "chaperonin GroEL",
+      "type" : "FAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "NCBIFAM",
+        "version" : "17.0"
+      },
+      "entry" : {
+        "accession" : "IPR001844",
+        "name" : "Cpn60/GroEL",
+        "description" : "Chaperonin Cpn60/GroEL",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "ATP-dependent protein folding chaperone",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0140662"
+        }, {
+          "name" : "protein refolding",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0042026"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "TFAP2A acts as a transcriptional repressor during retinoic acid induced cell differentiation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8869496"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-1268020"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9837999"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-9837999"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-9837999"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-1268020"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-9837999"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1268020"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-1268020"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9837999"
+        }, {
+          "name" : "Mitochondrial unfolded protein response (UPRmt)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9841251"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-1268020"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-9837999"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-9837999"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1268020"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-9837999"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9837999"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 50,
+      "end" : 610,
+      "representative" : false,
+      "hmmStart" : 1,
+      "hmmEnd" : 526,
+      "hmmLength" : 526,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 4.4E-243,
+      "score" : 819.1,
+      "envelopeStart" : 50,
+      "envelopeEnd" : 610,
+      "postProcessed" : false,
+      "location-fragments" : [ {
+        "start" : 50,
+        "end" : 610,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.6E-243,
+    "score" : 819.4,
+    "model-ac" : "TIGR02348"
+  }, {
+    "signature" : {
+      "accession" : "PR00298",
+      "name" : "CHAPERONIN60",
+      "description" : "60kDa chaperonin signature",
+      "type" : "FAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "PRINTS",
+        "version" : "42.0"
+      },
+      "entry" : {
+        "accession" : "IPR001844",
+        "name" : "Cpn60/GroEL",
+        "description" : "Chaperonin Cpn60/GroEL",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "ATP-dependent protein folding chaperone",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0140662"
+        }, {
+          "name" : "protein refolding",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0042026"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "TFAP2A acts as a transcriptional repressor during retinoic acid induced cell differentiation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8869496"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-1268020"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9837999"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-9837999"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-9837999"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-1268020"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-9837999"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1268020"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-1268020"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9837999"
+        }, {
+          "name" : "Mitochondrial unfolded protein response (UPRmt)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9841251"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-1268020"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-9837999"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-9837999"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1268020"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-9837999"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9837999"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 464,
+      "end" : 485,
+      "representative" : false,
+      "pvalue" : 1.11E-16,
+      "score" : 83.87,
+      "motifNumber" : 5,
+      "location-fragments" : [ {
+        "start" : 464,
+        "end" : 485,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 76,
+      "end" : 102,
+      "representative" : false,
+      "pvalue" : 1.0E-16,
+      "score" : 77.91,
+      "motifNumber" : 1,
+      "location-fragments" : [ {
+        "start" : 76,
+        "end" : 102,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 416,
+      "end" : 441,
+      "representative" : false,
+      "pvalue" : 3.27E-13,
+      "score" : 65.44,
+      "motifNumber" : 4,
+      "location-fragments" : [ {
+        "start" : 416,
+        "end" : 441,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 135,
+      "end" : 162,
+      "representative" : false,
+      "pvalue" : 1.0E-16,
+      "score" : 69.34,
+      "motifNumber" : 2,
+      "location-fragments" : [ {
+        "start" : 135,
+        "end" : 162,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 326,
+      "end" : 349,
+      "representative" : false,
+      "pvalue" : 1.0E-16,
+      "score" : 78.55,
+      "motifNumber" : 3,
+      "location-fragments" : [ {
+        "start" : 326,
+        "end" : 349,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.4E-71,
+    "graphscan" : "IIIII",
+    "model-ac" : "PR00298"
+  }, {
+    "signature" : {
+      "accession" : "PS00296",
+      "name" : "CHAPERONINS_CPN60",
+      "description" : "Chaperonins cpn60 signature.",
+      "type" : "CONSERVED_SITE",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PATTERNS",
+        "version" : "2025_01"
+      },
+      "entry" : {
+        "accession" : "IPR018370",
+        "name" : "Chaperonin_Cpn60_CS",
+        "description" : "Chaperonin Cpn60, conserved site",
+        "type" : "CONSERVED_SITE",
+        "goXRefs" : [ {
+          "name" : "protein folding",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006457"
+        }, {
+          "name" : "ATP binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005524"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "TFAP2A acts as a transcriptional repressor during retinoic acid induced cell differentiation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8869496"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-1268020"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9837999"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-9837999"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-9837999"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-9837999"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1268020"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-1268020"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9837999"
+        }, {
+          "name" : "Mitochondrial unfolded protein response (UPRmt)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9841251"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-1268020"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-9837999"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1268020"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-9837999"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9837999"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 471,
+      "end" : 482,
+      "representative" : false,
+      "level" : "STRONG",
+      "cigarAlignment" : "8M1I3M",
+      "alignment" : "AAVEEGIVpGGG",
+      "location-fragments" : [ {
+        "start" : 471,
+        "end" : 482,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS00296"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE_N_REGION",
+      "name" : "Signal peptide N-region",
+      "description" : "N-terminal region of a signal peptide.",
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 1,
+      "representative" : false,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 1,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE_N_REGION"
+  }, {
+    "signature" : {
+      "accession" : "NF009487",
+      "name" : "PRK12849.1",
+      "description" : "chaperonin GroEL",
+      "type" : "FAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "NCBIFAM",
+        "version" : "17.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 50,
+      "end" : 622,
+      "representative" : false,
+      "hmmStart" : 2,
+      "hmmEnd" : 530,
+      "hmmLength" : 543,
+      "hmmBounds" : "INCOMPLETE",
+      "evalue" : 2.0E-240,
+      "score" : 810.3,
+      "envelopeStart" : 49,
+      "envelopeEnd" : 656,
+      "postProcessed" : false,
+      "location-fragments" : [ {
+        "start" : 50,
+        "end" : 622,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.5E-240,
+    "score" : 810.6,
+    "model-ac" : "NF009487"
+  }, {
+    "signature" : {
+      "accession" : "PTHR45633",
+      "name" : "60 KDA HEAT SHOCK PROTEIN, MITOCHONDRIAL",
+      "description" : null,
+      "type" : "FAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "19.0"
+      },
+      "entry" : {
+        "accession" : "IPR001844",
+        "name" : "Cpn60/GroEL",
+        "description" : "Chaperonin Cpn60/GroEL",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "ATP-dependent protein folding chaperone",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0140662"
+        }, {
+          "name" : "protein refolding",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0042026"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "TFAP2A acts as a transcriptional repressor during retinoic acid induced cell differentiation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8869496"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-1268020"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9837999"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-9837999"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-9837999"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-1268020"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-9837999"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1268020"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-1268020"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9837999"
+        }, {
+          "name" : "Mitochondrial unfolded protein response (UPRmt)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9841251"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-1268020"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-9837999"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-9837999"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1268020"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-9837999"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9837999"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 47,
+      "end" : 613,
+      "representative" : false,
+      "hmmStart" : 8,
+      "hmmEnd" : 541,
+      "hmmLength" : 0,
+      "hmmBounds" : "INCOMPLETE",
+      "envelopeStart" : 16,
+      "envelopeEnd" : 627,
+      "location-fragments" : [ {
+        "start" : 47,
+        "end" : 613,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "accession" : "PTHR45633",
+    "name" : "60 KDA HEAT SHOCK PROTEIN, MITOCHONDRIAL",
+    "evalue" : 8.4E-226,
+    "score" : 762.4,
+    "proteinClass" : null,
+    "graftPoint" : null,
+    "goXRefs" : [ ],
+    "model-ac" : "PTHR45633"
+  }, {
+    "signature" : {
+      "accession" : "NF009489",
+      "name" : "PRK12851.1",
+      "description" : "chaperonin GroEL",
+      "type" : "FAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "NCBIFAM",
+        "version" : "17.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 48,
+      "end" : 613,
+      "representative" : false,
+      "hmmStart" : 1,
+      "hmmEnd" : 530,
+      "hmmLength" : 541,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "evalue" : 2.0E-251,
+      "score" : 846.6,
+      "envelopeStart" : 48,
+      "envelopeEnd" : 623,
+      "postProcessed" : false,
+      "location-fragments" : [ {
+        "start" : 48,
+        "end" : 613,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.7E-251,
+    "score" : 846.9,
+    "model-ac" : "NF009489"
+  }, {
+    "signature" : {
+      "accession" : "SignalP-TM",
+      "name" : "SignalP-TM",
+      "description" : null,
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "SIGNALP_GRAM_POSITIVE",
+        "version" : "4.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 25,
+      "representative" : false,
+      "score" : 0.618,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 25,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "orgType" : "GRAM_POSITIVE",
+    "model-ac" : "SignalP-TM"
+  }, {
+    "signature" : {
+      "accession" : "PF00118",
+      "name" : "Cpn60_TCP1",
+      "description" : "TCP-1/cpn60 chaperonin family",
+      "type" : "FAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "38.0"
+      },
+      "entry" : {
+        "accession" : "IPR002423",
+        "name" : "Cpn60/GroEL/TCP-1",
+        "description" : "Chaperonin Cpn60/GroEL/TCP-1 family",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "ATP binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005524"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "RHOBTB2 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9013418"
+        }, {
+          "name" : "RHOBTB2 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-9013418"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-390471"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6814122"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-6798695"
+        }, {
+          "name" : "RHOBTB1 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-9013422"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9837999"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-6814122"
+        }, {
+          "name" : "BBSome-mediated cargo-targeting to cilium",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5620922"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-390471"
+        }, {
+          "name" : "RHOBTB1 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9013422"
+        }, {
+          "name" : "TFAP2A acts as a transcriptional repressor during retinoic acid induced cell differentiation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8869496"
+        }, {
+          "name" : "RHOBTB1 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9013422"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-6798695"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-6798695"
+        }, {
+          "name" : "Synthesis of PIPs at the early endosome membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1660516"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1268020"
+        }, {
+          "name" : "Synthesis of PIPs at the Golgi membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1660514"
+        }, {
+          "name" : "RHOBTB1 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-9013422"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-6798695"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-390471"
+        }, {
+          "name" : "Gene and protein expression by JAK-STAT signaling after Interleukin-12 stimulation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8950505"
+        }, {
+          "name" : "RHOBTB2 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9013418"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-6798695"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-390471"
+        }, {
+          "name" : "RHOBTB2 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-9013418"
+        }, {
+          "name" : "RHOBTB2 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-9013418"
+        }, {
+          "name" : "Synthesis of PIPs at the late endosome membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1660517"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-9837999"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-1268020"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-6814122"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-6814122"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-390471"
+        }, {
+          "name" : "Prefoldin mediated transfer of substrate to CCT/TriC",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-389957"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-6814122"
+        }, {
+          "name" : "Mitochondrial unfolded protein response (UPRmt)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9841251"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-390471"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-1268020"
+        }, {
+          "name" : "RHOBTB1 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9013422"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-9837999"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-9837999"
+        }, {
+          "name" : "RHOBTB2 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9013418"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-390471"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-6814122"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-390471"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9837999"
+        }, {
+          "name" : "Formation of tubulin folding intermediates by CCT/TriC",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-389960"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-390471"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-1268020"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-PFA-6814122"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-6798695"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-6814122"
+        }, {
+          "name" : "Folding of actin by CCT/TriC",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-390450"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9837999"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-9837999"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-390471"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-6814122"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6798695"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-6814122"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-9837999"
+        }, {
+          "name" : "Synthesis of PIPs at the late endosome membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1660517"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-1268020"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-6798695"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-6814122"
+        }, {
+          "name" : "Synthesis of PIPs at the early endosome membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1660516"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-9837999"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1268020"
+        }, {
+          "name" : "Synthesis of PIPs at the Golgi membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1660514"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 72,
+      "end" : 608,
+      "representative" : false,
+      "hmmStart" : 1,
+      "hmmEnd" : 489,
+      "hmmLength" : 489,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 2.6E-74,
+      "score" : 262.3,
+      "envelopeStart" : 72,
+      "envelopeEnd" : 608,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 72,
+        "end" : 608,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.4E-75,
+    "score" : 265.2,
+    "model-ac" : "PF00118"
+  }, {
+    "signature" : {
+      "accession" : "SignalP-noTM",
+      "name" : "SignalP-noTM",
+      "description" : null,
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "SIGNALP_GRAM_NEGATIVE",
+        "version" : "4.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 25,
+      "representative" : false,
+      "score" : 0.702,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 25,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "orgType" : "GRAM_NEGATIVE",
+    "model-ac" : "SignalP-noTM"
+  }, {
+    "signature" : {
+      "accession" : "MF_00600",
+      "name" : "CH60",
+      "description" : "Chaperonin GroEL [groEL].",
+      "type" : "FAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "HAMAP",
+        "version" : "2025_01"
+      },
+      "entry" : {
+        "accession" : "IPR001844",
+        "name" : "Cpn60/GroEL",
+        "description" : "Chaperonin Cpn60/GroEL",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "ATP-dependent protein folding chaperone",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0140662"
+        }, {
+          "name" : "protein refolding",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0042026"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "TFAP2A acts as a transcriptional repressor during retinoic acid induced cell differentiation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8869496"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-1268020"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9837999"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-9837999"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-9837999"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-1268020"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-9837999"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1268020"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-1268020"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9837999"
+        }, {
+          "name" : "Mitochondrial unfolded protein response (UPRmt)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9841251"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-1268020"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-9837999"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-9837999"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1268020"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-9837999"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9837999"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 49,
+      "end" : 661,
+      "representative" : true,
+      "score" : 42.080254,
+      "alignment" : "AAKDIKFGEDgsARRKMLRGVNILADAVKVTLGPKGRNVVLEKSFGAPTITKDGVSVAKEIELEDKFENMGAQLVKEVASKTNDVArclGDGTTTATVLAQAIVREGLKAVAAGMNPMDLKRGIDKAVAAAVEELaKKLSKPVSDSKEIAQVGTISANSDEEIGKLIAEAMEKVGKEGVITVEEGKGLEtFELEVVEGMQFDRGYLSPYFVTNPEKMEAELEDPYILLTDKKISNIkQDLLPVLEAVAKANsgkKPLLIIAEDVEGEALATLVVNKLRGILKVAAVKAPGFGDRRKAMLEDIAILTGGKtvISEEGLGLKLEKATdLEDLGQAKRVVITKDNTTIVDsGAGDSdikAAIEARVAQIRAQIEEThTSDYDREKLQERLAKLAGGVAVIKVGAATEVEMKEKKDRVEDALHATRAAVEEGIVPGGGVALIRAAAKALALnlgldlieKGENLNGDQNTGINIVLRALEAPLRQIAENAGTEeGSVVVEKVRTLQKegegdNYGYNAATGEYGeDMIEAGIIDPTKVTRSALQNAASVAGLLLTTEAMVADKPEKEKDgAGGAaadpmaggggadmmgagaaaapampgmgmpGMGGmGmpGMGGM",
+      "location-fragments" : [ {
+        "start" : 49,
+        "end" : 661,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "MF_00600"
+  }, {
+    "signature" : {
+      "accession" : "SSF48592",
+      "name" : "GroEL equatorial domain-like",
+      "description" : null,
+      "type" : "HOMOLOGOUS_SUPERFAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR027413",
+        "name" : "GROEL-like_equatorial_sf",
+        "description" : "GroEL-like equatorial domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "RHOBTB2 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9013418"
+        }, {
+          "name" : "RHOBTB2 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-9013418"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-390471"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6814122"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-6798695"
+        }, {
+          "name" : "RHOBTB1 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-9013422"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9837999"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-6814122"
+        }, {
+          "name" : "BBSome-mediated cargo-targeting to cilium",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5620922"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-390471"
+        }, {
+          "name" : "RHOBTB1 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9013422"
+        }, {
+          "name" : "TFAP2A acts as a transcriptional repressor during retinoic acid induced cell differentiation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8869496"
+        }, {
+          "name" : "RHOBTB1 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9013422"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-6798695"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-6798695"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1268020"
+        }, {
+          "name" : "RHOBTB1 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-9013422"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-6798695"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-390471"
+        }, {
+          "name" : "Gene and protein expression by JAK-STAT signaling after Interleukin-12 stimulation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8950505"
+        }, {
+          "name" : "RHOBTB2 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9013418"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-6798695"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-390471"
+        }, {
+          "name" : "RHOBTB2 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-9013418"
+        }, {
+          "name" : "RHOBTB2 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-9013418"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-9837999"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-1268020"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-6814122"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-6814122"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-390471"
+        }, {
+          "name" : "Prefoldin mediated transfer of substrate to CCT/TriC",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-389957"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-6814122"
+        }, {
+          "name" : "Mitochondrial unfolded protein response (UPRmt)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9841251"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-390471"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-1268020"
+        }, {
+          "name" : "RHOBTB1 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9013422"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-9837999"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-9837999"
+        }, {
+          "name" : "RHOBTB2 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9013418"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-390471"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-6814122"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-390471"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9837999"
+        }, {
+          "name" : "Formation of tubulin folding intermediates by CCT/TriC",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-389960"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-390471"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-1268020"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-PFA-6814122"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-6798695"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-6814122"
+        }, {
+          "name" : "Folding of actin by CCT/TriC",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-390450"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9837999"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-9837999"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-390471"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-6814122"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6798695"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-6814122"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-9837999"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-1268020"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-6798695"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-6814122"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-9837999"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1268020"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 59,
+      "end" : 604,
+      "representative" : false,
+      "hmmLength" : 246,
+      "location-fragments" : [ {
+        "start" : 59,
+        "end" : 186,
+        "dc-status" : "C_TERMINAL_DISC"
+      }, {
+        "start" : 472,
+        "end" : 604,
+        "dc-status" : "N_TERMINAL_DISC"
+      } ]
+    } ],
+    "evalue" : 8.4E-73,
+    "model-ac" : "0034904"
+  }, {
+    "signature" : {
+      "accession" : "SSF54849",
+      "name" : "GroEL-intermediate domain like",
+      "description" : null,
+      "type" : "HOMOLOGOUS_SUPERFAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR027410",
+        "name" : "TCP-1-like_intermed_sf",
+        "description" : "TCP-1-like chaperonin intermediate domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "RHOBTB2 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9013418"
+        }, {
+          "name" : "RHOBTB2 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-9013418"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-390471"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6814122"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-6798695"
+        }, {
+          "name" : "RHOBTB1 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-9013422"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9837999"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-6814122"
+        }, {
+          "name" : "BBSome-mediated cargo-targeting to cilium",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5620922"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-390471"
+        }, {
+          "name" : "RHOBTB1 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9013422"
+        }, {
+          "name" : "TFAP2A acts as a transcriptional repressor during retinoic acid induced cell differentiation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8869496"
+        }, {
+          "name" : "RHOBTB1 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9013422"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-6798695"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-6798695"
+        }, {
+          "name" : "Synthesis of PIPs at the early endosome membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1660516"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1268020"
+        }, {
+          "name" : "Synthesis of PIPs at the Golgi membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1660514"
+        }, {
+          "name" : "RHOBTB1 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-9013422"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-6798695"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-390471"
+        }, {
+          "name" : "Gene and protein expression by JAK-STAT signaling after Interleukin-12 stimulation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8950505"
+        }, {
+          "name" : "RHOBTB2 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9013418"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-6798695"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-390471"
+        }, {
+          "name" : "RHOBTB2 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-9013418"
+        }, {
+          "name" : "RHOBTB2 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-9013418"
+        }, {
+          "name" : "Synthesis of PIPs at the late endosome membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1660517"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-9837999"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-1268020"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-6814122"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-6814122"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-390471"
+        }, {
+          "name" : "Prefoldin mediated transfer of substrate to CCT/TriC",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-389957"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-6814122"
+        }, {
+          "name" : "Mitochondrial unfolded protein response (UPRmt)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9841251"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-390471"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-1268020"
+        }, {
+          "name" : "RHOBTB1 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9013422"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-9837999"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-9837999"
+        }, {
+          "name" : "RHOBTB2 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9013418"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-390471"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-6814122"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-390471"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9837999"
+        }, {
+          "name" : "Formation of tubulin folding intermediates by CCT/TriC",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-389960"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-390471"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-1268020"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-PFA-6814122"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-6798695"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-6814122"
+        }, {
+          "name" : "Folding of actin by CCT/TriC",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-390450"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9837999"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-9837999"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-390471"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-6814122"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6798695"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-6814122"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-9837999"
+        }, {
+          "name" : "Synthesis of PIPs at the late endosome membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1660517"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-1268020"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-6798695"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-6814122"
+        }, {
+          "name" : "Synthesis of PIPs at the early endosome membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1660516"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-9837999"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1268020"
+        }, {
+          "name" : "Synthesis of PIPs at the Golgi membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1660514"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 190,
+      "end" : 258,
+      "representative" : false,
+      "hmmLength" : 90,
+      "location-fragments" : [ {
+        "start" : 190,
+        "end" : 258,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.92E-24,
+    "model-ac" : "0049415"
+  }, {
+    "signature" : {
+      "accession" : "NON_CYTOPLASMIC_DOMAIN",
+      "name" : "Non cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.",
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 26,
+      "end" : 696,
+      "representative" : false,
+      "location-fragments" : [ {
+        "start" : 26,
+        "end" : 696,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "NON_CYTOPLASMIC_DOMAIN"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:1.10.560.10:FF:000001",
+      "name" : null,
+      "description" : "60 kDa chaperonin",
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "FUNFAM",
+        "version" : "4.3.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 53,
+      "end" : 255,
+      "representative" : false,
+      "hmmStart" : 1,
+      "hmmEnd" : 169,
+      "hmmLength" : 242,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "evalue" : 5.2E-66,
+      "score" : 224.4,
+      "envelopeStart" : 53,
+      "envelopeEnd" : 255,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 53,
+        "end" : 255,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.7E-104,
+    "score" : 350.4,
+    "model-ac" : "1.10.560.10-FF-000001"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:3.50.7.10",
+      "name" : "GroEL",
+      "description" : null,
+      "type" : "HOMOLOGOUS_SUPERFAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.3.0"
+      },
+      "entry" : {
+        "accession" : "IPR027409",
+        "name" : "GroEL-like_apical_dom_sf",
+        "description" : "GroEL-like apical domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "RHOBTB2 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9013418"
+        }, {
+          "name" : "RHOBTB2 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-9013418"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-390471"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6814122"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-6798695"
+        }, {
+          "name" : "RHOBTB1 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-9013422"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9837999"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-6814122"
+        }, {
+          "name" : "BBSome-mediated cargo-targeting to cilium",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5620922"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-390471"
+        }, {
+          "name" : "RHOBTB1 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9013422"
+        }, {
+          "name" : "TFAP2A acts as a transcriptional repressor during retinoic acid induced cell differentiation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8869496"
+        }, {
+          "name" : "RHOBTB1 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9013422"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-6798695"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-6798695"
+        }, {
+          "name" : "Synthesis of PIPs at the early endosome membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1660516"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1268020"
+        }, {
+          "name" : "Synthesis of PIPs at the Golgi membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1660514"
+        }, {
+          "name" : "RHOBTB1 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-9013422"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-6798695"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-390471"
+        }, {
+          "name" : "Gene and protein expression by JAK-STAT signaling after Interleukin-12 stimulation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8950505"
+        }, {
+          "name" : "RHOBTB2 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9013418"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-6798695"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-390471"
+        }, {
+          "name" : "RHOBTB2 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-9013418"
+        }, {
+          "name" : "RHOBTB2 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-9013418"
+        }, {
+          "name" : "Synthesis of PIPs at the late endosome membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1660517"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-9837999"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-1268020"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-6814122"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-6814122"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-390471"
+        }, {
+          "name" : "Prefoldin mediated transfer of substrate to CCT/TriC",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-389957"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-6814122"
+        }, {
+          "name" : "Mitochondrial unfolded protein response (UPRmt)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9841251"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-390471"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-1268020"
+        }, {
+          "name" : "RHOBTB1 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9013422"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-9837999"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-9837999"
+        }, {
+          "name" : "RHOBTB2 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9013418"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-390471"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-6814122"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-390471"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9837999"
+        }, {
+          "name" : "Formation of tubulin folding intermediates by CCT/TriC",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-389960"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-390471"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-1268020"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-PFA-6814122"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-6798695"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-6814122"
+        }, {
+          "name" : "Folding of actin by CCT/TriC",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-390450"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9837999"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-9837999"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-390471"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-6814122"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6798695"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-6814122"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-9837999"
+        }, {
+          "name" : "Synthesis of PIPs at the late endosome membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1660517"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-1268020"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-6798695"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-6814122"
+        }, {
+          "name" : "Synthesis of PIPs at the early endosome membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1660516"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-9837999"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1268020"
+        }, {
+          "name" : "Synthesis of PIPs at the Golgi membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1660514"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 246,
+      "end" : 439,
+      "representative" : false,
+      "hmmStart" : 2,
+      "hmmEnd" : 519,
+      "hmmLength" : 183,
+      "hmmBounds" : "INCOMPLETE",
+      "evalue" : 1.2E-241,
+      "score" : 804.6,
+      "envelopeStart" : 52,
+      "envelopeEnd" : 605,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 246,
+        "end" : 439,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.0E-241,
+    "score" : 804.8,
+    "model-ac" : "4pj1A03"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:3.30.260.10",
+      "name" : "",
+      "description" : null,
+      "type" : "HOMOLOGOUS_SUPERFAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.3.0"
+      },
+      "entry" : {
+        "accession" : "IPR027410",
+        "name" : "TCP-1-like_intermed_sf",
+        "description" : "TCP-1-like chaperonin intermediate domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "RHOBTB2 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9013418"
+        }, {
+          "name" : "RHOBTB2 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-9013418"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-390471"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6814122"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-6798695"
+        }, {
+          "name" : "RHOBTB1 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-9013422"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9837999"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-6814122"
+        }, {
+          "name" : "BBSome-mediated cargo-targeting to cilium",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5620922"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-390471"
+        }, {
+          "name" : "RHOBTB1 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9013422"
+        }, {
+          "name" : "TFAP2A acts as a transcriptional repressor during retinoic acid induced cell differentiation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8869496"
+        }, {
+          "name" : "RHOBTB1 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9013422"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-6798695"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-6798695"
+        }, {
+          "name" : "Synthesis of PIPs at the early endosome membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1660516"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1268020"
+        }, {
+          "name" : "Synthesis of PIPs at the Golgi membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1660514"
+        }, {
+          "name" : "RHOBTB1 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-9013422"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-6798695"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-390471"
+        }, {
+          "name" : "Gene and protein expression by JAK-STAT signaling after Interleukin-12 stimulation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8950505"
+        }, {
+          "name" : "RHOBTB2 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9013418"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-6798695"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-390471"
+        }, {
+          "name" : "RHOBTB2 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-9013418"
+        }, {
+          "name" : "RHOBTB2 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-9013418"
+        }, {
+          "name" : "Synthesis of PIPs at the late endosome membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1660517"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-9837999"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-1268020"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-6814122"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-6814122"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-390471"
+        }, {
+          "name" : "Prefoldin mediated transfer of substrate to CCT/TriC",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-389957"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-6814122"
+        }, {
+          "name" : "Mitochondrial unfolded protein response (UPRmt)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9841251"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-390471"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-1268020"
+        }, {
+          "name" : "RHOBTB1 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9013422"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-9837999"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-9837999"
+        }, {
+          "name" : "RHOBTB2 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9013418"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-390471"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-6814122"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-390471"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9837999"
+        }, {
+          "name" : "Formation of tubulin folding intermediates by CCT/TriC",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-389960"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-390471"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-1268020"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-PFA-6814122"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-6798695"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-6814122"
+        }, {
+          "name" : "Folding of actin by CCT/TriC",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-390450"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9837999"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-9837999"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-390471"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-6814122"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6798695"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-6814122"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-9837999"
+        }, {
+          "name" : "Synthesis of PIPs at the late endosome membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1660517"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-1268020"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-6798695"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-6814122"
+        }, {
+          "name" : "Synthesis of PIPs at the early endosome membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1660516"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-9837999"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1268020"
+        }, {
+          "name" : "Synthesis of PIPs at the Golgi membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1660514"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 190,
+      "end" : 476,
+      "representative" : false,
+      "hmmStart" : 2,
+      "hmmEnd" : 519,
+      "hmmLength" : 92,
+      "hmmBounds" : "INCOMPLETE",
+      "evalue" : 1.2E-241,
+      "score" : 804.6,
+      "envelopeStart" : 52,
+      "envelopeEnd" : 605,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 440,
+        "end" : 476,
+        "dc-status" : "N_TERMINAL_DISC"
+      }, {
+        "start" : 190,
+        "end" : 245,
+        "dc-status" : "C_TERMINAL_DISC"
+      } ]
+    } ],
+    "evalue" : 1.0E-241,
+    "score" : 804.8,
+    "model-ac" : "4pj1A02"
+  }, {
+    "signature" : {
+      "accession" : "SSF52029",
+      "name" : "GroEL apical domain-like",
+      "description" : null,
+      "type" : "HOMOLOGOUS_SUPERFAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR027409",
+        "name" : "GroEL-like_apical_dom_sf",
+        "description" : "GroEL-like apical domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "RHOBTB2 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9013418"
+        }, {
+          "name" : "RHOBTB2 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-9013418"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-390471"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6814122"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-6798695"
+        }, {
+          "name" : "RHOBTB1 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-9013422"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9837999"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-6814122"
+        }, {
+          "name" : "BBSome-mediated cargo-targeting to cilium",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5620922"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-390471"
+        }, {
+          "name" : "RHOBTB1 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9013422"
+        }, {
+          "name" : "TFAP2A acts as a transcriptional repressor during retinoic acid induced cell differentiation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8869496"
+        }, {
+          "name" : "RHOBTB1 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9013422"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-6798695"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-6798695"
+        }, {
+          "name" : "Synthesis of PIPs at the early endosome membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1660516"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1268020"
+        }, {
+          "name" : "Synthesis of PIPs at the Golgi membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1660514"
+        }, {
+          "name" : "RHOBTB1 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-9013422"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-6798695"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-390471"
+        }, {
+          "name" : "Gene and protein expression by JAK-STAT signaling after Interleukin-12 stimulation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8950505"
+        }, {
+          "name" : "RHOBTB2 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9013418"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-6798695"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-390471"
+        }, {
+          "name" : "RHOBTB2 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-9013418"
+        }, {
+          "name" : "RHOBTB2 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-9013418"
+        }, {
+          "name" : "Synthesis of PIPs at the late endosome membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1660517"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-9837999"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-1268020"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-6814122"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-6814122"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-390471"
+        }, {
+          "name" : "Prefoldin mediated transfer of substrate to CCT/TriC",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-389957"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-6814122"
+        }, {
+          "name" : "Mitochondrial unfolded protein response (UPRmt)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9841251"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-390471"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-1268020"
+        }, {
+          "name" : "RHOBTB1 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9013422"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-9837999"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-9837999"
+        }, {
+          "name" : "RHOBTB2 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9013418"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-390471"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-6814122"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-390471"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9837999"
+        }, {
+          "name" : "Formation of tubulin folding intermediates by CCT/TriC",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-389960"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-390471"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-1268020"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-PFA-6814122"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-6798695"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-6814122"
+        }, {
+          "name" : "Folding of actin by CCT/TriC",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-390450"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9837999"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-9837999"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-390471"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-6814122"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6798695"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-6814122"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-9837999"
+        }, {
+          "name" : "Synthesis of PIPs at the late endosome membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1660517"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-1268020"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-6798695"
+        }, {
+          "name" : "Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-6814122"
+        }, {
+          "name" : "Synthesis of PIPs at the early endosome membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1660516"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-9837999"
+        }, {
+          "name" : "Mitochondrial protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1268020"
+        }, {
+          "name" : "Synthesis of PIPs at the Golgi membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1660514"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 240,
+      "end" : 442,
+      "representative" : false,
+      "hmmLength" : 193,
+      "location-fragments" : [ {
+        "start" : 240,
+        "end" : 442,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.94E-74,
+    "model-ac" : "0047814"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE",
+      "name" : "Signal Peptide",
+      "description" : "Signal peptide region",
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 25,
+      "representative" : false,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 25,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:3.50.7.10:FF:000001",
+      "name" : null,
+      "description" : "60 kDa chaperonin",
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "FUNFAM",
+        "version" : "4.3.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 246,
+      "end" : 439,
+      "representative" : false,
+      "hmmStart" : 1,
+      "hmmEnd" : 182,
+      "hmmLength" : 182,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 2.7E-82,
+      "score" : 276.3,
+      "envelopeStart" : 246,
+      "envelopeEnd" : 439,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 246,
+        "end" : 439,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.7E-82,
+    "score" : 276.3,
+    "model-ac" : "3.50.7.10-FF-000001"
+  }, {
+    "signature" : {
+      "accession" : "NF000592",
+      "name" : "PRK00013.1",
+      "description" : "chaperonin GroEL",
+      "type" : "FAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "NCBIFAM",
+        "version" : "17.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 50,
+      "end" : 608,
+      "representative" : false,
+      "hmmStart" : 1,
+      "hmmEnd" : 524,
+      "hmmLength" : 524,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 6.5E-253,
+      "score" : 851.5,
+      "envelopeStart" : 50,
+      "envelopeEnd" : 608,
+      "postProcessed" : false,
+      "location-fragments" : [ {
+        "start" : 50,
+        "end" : 608,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 5.5E-253,
+    "score" : 851.8,
+    "model-ac" : "NF000592"
+  } ],
+  "xref" : [ {
+    "name" : "Sequence1",
+    "id" : "Sequence1"
+  } ]
+} ]
+}

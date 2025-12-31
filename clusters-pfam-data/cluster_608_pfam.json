@@ -1,0 +1,497 @@
+{
+ "interproscan-version": "5.76-107.0",
+"results": [ {
+  "sequence" : "MAAAAAALALSSFAFAGQALALSPSAIEGNGNGRIRKRAAKAKPAPSGSPWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXSXXXXXXXTSXKGXXXXXXXXXXXXECCCGICCGCCCCGEECCQGXFGVSCCDNGFCRFKWCVCYRNRGCCCKYRCAGGPLCCVKDCLCPGGICDCLGLACDPEAFAELKVKEIKNGRLAMFSMFGFFVQAIVTGKGPLENLADHCADPVNNNAWAFATNFVPGK",
+  "md5" : "3fd3324bda2247f5f6ba3d3c6fac869b",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "SignalP-TM",
+      "name" : "SignalP-TM",
+      "description" : null,
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "SIGNALP_GRAM_POSITIVE",
+        "version" : "4.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 21,
+      "representative" : false,
+      "score" : 0.728,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 21,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "orgType" : "GRAM_POSITIVE",
+    "model-ac" : "SignalP-TM"
+  }, {
+    "signature" : {
+      "accession" : "SignalP-noTM",
+      "name" : "SignalP-noTM",
+      "description" : null,
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "SIGNALP_EUK",
+        "version" : "4.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 21,
+      "representative" : false,
+      "score" : 0.761,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 21,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "orgType" : "EUK",
+    "model-ac" : "SignalP-noTM"
+  }, {
+    "signature" : {
+      "accession" : "NON_CYTOPLASMIC_DOMAIN",
+      "name" : "Non cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.",
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 22,
+      "end" : 267,
+      "representative" : false,
+      "location-fragments" : [ {
+        "start" : 22,
+        "end" : 267,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "NON_CYTOPLASMIC_DOMAIN"
+  }, {
+    "signature" : {
+      "accession" : "PTHR21649",
+      "name" : "CHLOROPHYLL A/B BINDING PROTEIN",
+      "description" : null,
+      "type" : "FAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "19.0"
+      },
+      "entry" : {
+        "accession" : "IPR001344",
+        "name" : "Chloro_AB-bd_pln",
+        "description" : "Chlorophyll A-B binding protein, plant and chromista",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "photosynthesis, light harvesting",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0009765"
+        }, {
+          "name" : "membrane",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0016020"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 175,
+      "end" : 267,
+      "representative" : true,
+      "hmmStart" : 165,
+      "hmmEnd" : 258,
+      "hmmLength" : 0,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "envelopeStart" : 161,
+      "envelopeEnd" : 267,
+      "location-fragments" : [ {
+        "start" : 175,
+        "end" : 267,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "accession" : "PTHR21649",
+    "name" : "CHLOROPHYLL A/B BINDING PROTEIN",
+    "evalue" : 3.0E-43,
+    "score" : 159.9,
+    "proteinClass" : null,
+    "graftPoint" : null,
+    "goXRefs" : [ ],
+    "model-ac" : "PTHR21649"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE",
+      "name" : "Signal Peptide",
+      "description" : "Signal peptide region",
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 21,
+      "representative" : false,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 21,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:1.10.3460.10",
+      "name" : "Chlorophyll a/b binding protein domain",
+      "description" : null,
+      "type" : "HOMOLOGOUS_SUPERFAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.3.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 153,
+      "end" : 260,
+      "representative" : true,
+      "hmmStart" : 111,
+      "hmmEnd" : 205,
+      "hmmLength" : 205,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 2.4E-29,
+      "score" : 104.6,
+      "envelopeStart" : 153,
+      "envelopeEnd" : 260,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 153,
+        "end" : 260,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.6E-29,
+    "score" : 105.1,
+    "model-ac" : "5xnl301"
+  }, {
+    "signature" : {
+      "accession" : "SignalP-noTM",
+      "name" : "SignalP-noTM",
+      "description" : null,
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "SIGNALP_GRAM_NEGATIVE",
+        "version" : "4.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 16,
+      "representative" : false,
+      "score" : 0.827,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 16,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "orgType" : "GRAM_NEGATIVE",
+    "model-ac" : "SignalP-noTM"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE_N_REGION",
+      "name" : "Signal peptide N-region",
+      "description" : "N-terminal region of a signal peptide.",
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 1,
+      "representative" : false,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 1,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE_N_REGION"
+  }, {
+    "signature" : {
+      "accession" : "SSF103511",
+      "name" : "Chlorophyll a-b binding protein",
+      "description" : null,
+      "type" : "HOMOLOGOUS_SUPERFAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 171,
+      "end" : 264,
+      "representative" : false,
+      "hmmLength" : 218,
+      "location-fragments" : [ {
+        "start" : 171,
+        "end" : 264,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.22E-27,
+    "model-ac" : "0043399"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE_H_REGION",
+      "name" : "Signal peptide H-region",
+      "description" : "Hydrophobic region of a signal peptide.",
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 2,
+      "end" : 13,
+      "representative" : false,
+      "location-fragments" : [ {
+        "start" : 2,
+        "end" : 13,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE_H_REGION"
+  }, {
+    "signature" : {
+      "accession" : "PF00504",
+      "name" : "Chloroa_b-bind",
+      "description" : "Chlorophyll A-B binding protein",
+      "type" : "FAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "38.0"
+      },
+      "entry" : {
+        "accession" : "IPR022796",
+        "name" : "Chloroa_b-bind",
+        "description" : "Chlorophyll A-B binding protein",
+        "type" : "FAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 189,
+      "end" : 234,
+      "representative" : false,
+      "hmmStart" : 115,
+      "hmmEnd" : 162,
+      "hmmLength" : 162,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "evalue" : 1.7E-9,
+      "score" : 49.8,
+      "envelopeStart" : 166,
+      "envelopeEnd" : 234,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 189,
+        "end" : 234,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.2E-9,
+    "score" : 50.3,
+    "model-ac" : "PF00504"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE_C_REGION",
+      "name" : "Signal peptide C-region",
+      "description" : "C-terminal region of a signal peptide.",
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 14,
+      "end" : 21,
+      "representative" : false,
+      "location-fragments" : [ {
+        "start" : 14,
+        "end" : 21,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE_C_REGION"
+  }, {
+    "signature" : {
+      "accession" : "PIRSR601344-1",
+      "name" : "PIRSR601344-1",
+      "description" : null,
+      "type" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PIRSR",
+        "version" : "2025_01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 168,
+      "end" : 267,
+      "representative" : false,
+      "sites" : [ {
+        "description" : "chlorophyll a",
+        "numLocations" : 1,
+        "siteLocations" : [ {
+          "start" : 218,
+          "end" : 218,
+          "residue" : "N"
+        } ],
+        "label" : "BINDING",
+        "group" : 16,
+        "hmmStart" : 216,
+        "hmmEnd" : 216
+      }, {
+        "description" : "chlorophyll b",
+        "numLocations" : 1,
+        "siteLocations" : [ {
+          "start" : 183,
+          "end" : 183,
+          "residue" : "L"
+        } ],
+        "label" : "BINDING",
+        "group" : 13,
+        "hmmStart" : 179,
+        "hmmEnd" : 179
+      }, {
+        "description" : "chlorophyll a",
+        "numLocations" : 1,
+        "siteLocations" : [ {
+          "start" : 256,
+          "end" : 256,
+          "residue" : "A"
+        } ],
+        "label" : "BINDING",
+        "group" : 20,
+        "hmmStart" : 254,
+        "hmmEnd" : 254
+      }, {
+        "description" : "chlorophyll a",
+        "numLocations" : 1,
+        "siteLocations" : [ {
+          "start" : 232,
+          "end" : 232,
+          "residue" : "Q"
+        } ],
+        "label" : "BINDING",
+        "group" : 18,
+        "hmmStart" : 230,
+        "hmmEnd" : 230
+      }, {
+        "description" : "chlorophyll a",
+        "numLocations" : 1,
+        "siteLocations" : [ {
+          "start" : 214,
+          "end" : 214,
+          "residue" : "K"
+        } ],
+        "label" : "BINDING",
+        "group" : 14,
+        "hmmStart" : 212,
+        "hmmEnd" : 212
+      }, {
+        "description" : "chlorophyll a",
+        "numLocations" : 1,
+        "siteLocations" : [ {
+          "start" : 220,
+          "end" : 220,
+          "residue" : "R"
+        } ],
+        "label" : "BINDING",
+        "group" : 17,
+        "hmmStart" : 218,
+        "hmmEnd" : 218
+      }, {
+        "description" : "chlorophyll a",
+        "numLocations" : 1,
+        "siteLocations" : [ {
+          "start" : 215,
+          "end" : 215,
+          "residue" : "E"
+        } ],
+        "label" : "BINDING",
+        "group" : 15,
+        "hmmStart" : 213,
+        "hmmEnd" : 213
+      }, {
+        "description" : "chlorophyll a",
+        "numLocations" : 1,
+        "siteLocations" : [ {
+          "start" : 247,
+          "end" : 247,
+          "residue" : "H"
+        } ],
+        "label" : "BINDING",
+        "group" : 19,
+        "hmmStart" : 245,
+        "hmmEnd" : 245
+      }, {
+        "description" : "chlorophyll b",
+        "numLocations" : 1,
+        "siteLocations" : [ {
+          "start" : 263,
+          "end" : 263,
+          "residue" : "F"
+        } ],
+        "label" : "BINDING",
+        "group" : 21,
+        "hmmStart" : 261,
+        "hmmEnd" : 261
+      } ],
+      "hmmStart" : 163,
+      "hmmEnd" : 265,
+      "hmmLength" : 265,
+      "evalue" : 3.3E-39,
+      "score" : 120.8,
+      "envelopeStart" : 1,
+      "envelopeEnd" : 2,
+      "location-fragments" : [ {
+        "start" : 168,
+        "end" : 267,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.3E-39,
+    "score" : 120.8,
+    "scope" : null,
+    "model-ac" : "PIRSR601344-1"
+  } ],
+  "xref" : [ {
+    "name" : "Sequence1",
+    "id" : "Sequence1"
+  } ]
+} ]
+}
